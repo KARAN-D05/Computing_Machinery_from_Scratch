@@ -15,5 +15,5 @@ Through each iteration, the goal was simple: make the machine **smarter, more au
 
 Today, the Repeated Arithmetic Machine is a modular, 4-bit arithmetic computing system with feedback-driven control, automation, and error handling — a full evolution from a simple prototype to a fully autonomous, intelligent machine.
 
-[Machine Schematics](Images/RAM_Project_Evolution.pdf)
+[Machine Schematics - From Idea to Intelligence](Images/RAM_Project_Evolution.pdf)
 
