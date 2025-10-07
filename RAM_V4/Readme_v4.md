@@ -45,6 +45,15 @@
 - Each Program Memory is made up of 4 sets of 16 D-flip flops, the set of D-flip flops connected directly to machine is called the Interface module, as it acts as an interface between machine and memory and the instruction that interface module holds is getting executed. 
 - Sets of D-flip flops are Connected in such a way that after loading the program and initiating it, the instructions keep flowing from one D-flip flop set to the next getting to the interface module and controlling the machine when it has to. 
 
+## Loading the Program
+- Each instruction has to be entered manually through the initial load pins, then make Load_Ix pin high and the instruction will be stored.
+- Same steps have to be followed for further instrcution loading
+- Ix_y, x=1,2,3,4 is the sequence in which instuctions will be executed
+
+## Arithmetic Operation Signals
+- The default operation of the machine is addition.
+- Thus in order to perform subtraction(Bit5), division(Bit9) or multiplication(Bit8) keep that respective initial load pin high along with multiplier(Bit13-Bit16)   in case of Muliplication
+
 ## How to Use Version 4 (r_a_mv4.circ)
 
 1. **Install Logisim Evolution** 
@@ -54,7 +63,7 @@
    - Navigate to the `RAM_v4` folder (or wherever `r_a_mv4.circ` is located). 
    - Open `r_a_mv4.circ` in Logisim Evolution.
 
-3. **Understand the Instruction format and machine code programming** 
+3. **Understand the Instruction format and machine code programming**
    - Start small with programs to load data and basic addition
    - After getting comfortable, try programs including feedback, multiplication, subtraction and division
    - Refer r_a_mv3 (Navigate to RAM_V3 folder and download r_a_mv3.circ) to understand how different operations are performed by hardware to write correct program      to control the machinery.
