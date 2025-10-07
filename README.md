@@ -29,4 +29,4 @@ The development of this version 4 is a hands on exploration of how program memor
 - Successfully demonstrated programs like loading data, then adding them, then taking a feedback and subtracting it from some other data
 - Operations that would take manual intervention have been automated through machine code programming
 
-[More about version 4](RAM_V4/Readme_v4.md)
+[More About technical details](RAM_V4/Readme_v4.md)
