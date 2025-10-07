@@ -36,6 +36,15 @@
 - Bit15->Multiplier=4
 - Bit16->Multiplier=8
 
+## Translating the desired set of operations in a Program
+- In order to do that, one should have thorough understanding of how the operations are implemented through hardware so that instructions can be sequenced properly
+- Hence it is recommended to refer the previous versions(v1-v3) for the knowledge of how different operations are implemented and when to set a particular machine   code insrtuction bit high or low to control the pins essentially controlling the machine
+
+## Program Memory
+- The pins on Program active memory are labelled as Ix_y, where x is the instruction number and y is the instruction bit, each program memory module has capacity of storing 4 instructions(16 bit each), hence 8 Bytes. In the circuit provided 2 such modules have been connected giving us ability to store 16 bytes, even though more modules can be connected together to get more memory to store a program.
+- Each Program Memory is made up of 4 sets of 16 D-flip flops, the set of D-flip flops connected directly to machine is called the Interface module, as it acts as an interface between machine and memory and the instruction that interface module holds is getting executed. 
+- Sets of D-flip flops are Connected in such a way that after loading the program and initiating it, the instructions keep flowing from one D-flip flop set to the next getting to the interface module and controlling the machine when it has to. 
+
 ## How to Use Version 4 (r_a_mv4.circ)
 
 1. **Install Logisim Evolution** 
