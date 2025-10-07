@@ -47,7 +47,8 @@
 
 ## Loading the Program
 - Each instruction has to be entered manually through the initial load pins, then make Load_Ix pin high and the instruction will be stored.
-- Same steps have to be followed for further instrcution loading
+- Make sure to remove instruction from initial load pins after loading it in the memory, if not program will keep executing that instruction.
+- Same steps have to be followed for further instruction loading
 - Ix_y, x=1,2,3,4 is the sequence in which instuctions will be executed
 
 ## Arithmetic Operation Signals
@@ -67,3 +68,4 @@
    - Start small with programs to load data and basic addition
    - After getting comfortable, try programs including feedback, multiplication, subtraction and division
    - Refer r_a_mv3 (Navigate to RAM_V3 folder and download r_a_mv3.circ) to understand how different operations are performed by hardware to write correct program      to control the machinery.
+   - Read all the steps mentioned above properly.
