@@ -17,6 +17,25 @@
 - This version continues the self initiated exploration of how compuation evolves from logic gates to programmable-machines
 - It bridges gap between data processing(v3) and instruction processing(v4)
 
+## Instruction Format
+- Each instruction is 16 bit long and have to be written following the instruction format
+- Bit1-> Feedback
+- Bit2-> Store
+- Bit3-> Selector
+- Bit4-> Data1
+- Bit5-> Mode
+- Bit6-> Reset
+- Bit7->Data2
+- Bit8->Multiply
+- Bit9->Divide
+- Bit10->Override System Halt
+- Bit11->Data4
+- Bit12->Data8
+- Bit13->Multiplier=1
+- Bit14->Multiplier=2
+- Bit15->Multiplier=4
+- Bit16->Multiplier=8
+
 ## How to Use Version 4 (r_a_mv4.circ)
 
 1. **Install Logisim Evolution** 
