@@ -16,3 +16,17 @@
 ## Purpose
 - This version continues the self initiated exploration of how compuation evolves from logic gates to programmable-machines
 - It bridges gap between data processing(v3) and instruction processing(v4)
+
+## How to Use Version 4 (r_a_mv4.circ)
+
+1. **Install Logisim Evolution** 
+   - Download and install from: [Logisim Evolution GitHub](https://github.com/logisim-evolution/logisim-evolution)
+
+2. **Open the Circuit File** 
+   - Navigate to the `RAM_v4` folder (or wherever `r_a_mv4.circ` is located). 
+   - Open `r_a_mv4.circ` in Logisim Evolution.
+
+3. **Understand the Instruction format and machine code programming** 
+   - Start small with programs to load data and basic addition
+   - After getting comfortable, try programs including feedback, multiplication, subtraction and division
+   - Refer r_a_mv3 (Navigate to RAM_V3 folder and download r_a_mv3.circ) to understand how different operations are performed by hardware to write correct program      to control the machinery.
