@@ -17,3 +17,13 @@ Today, the Repeated Arithmetic Machine is a modular, 4-bit arithmetic computing 
 
 [Machine Schematics - From Idea to Intelligence](Images/RAM_Project_Evolution.pdf)
 
+## Current Development --> r_a_mv4(Stored Program Architecture)
+This stage represents a significant step towards understanding and recreating principles behind early programmable computers.
+This is done in order to understand how instructions can be stored in memory and executed sequentially.
+The development of this version 4 is a hands on exploration of how program memory, sequencing and control logic forms basis of the **Von Neumann Architecture** and modern computational systems.
+
+**Progress Made:-**
+- Developed instruction format for instructions
+- Memory modules that stores the machine code instructions
+- Controlled flow for execution of instructions
+- Successfully demonstrated programs like loading data, then adding them, then taking a feedback and subtracting it from some data.
