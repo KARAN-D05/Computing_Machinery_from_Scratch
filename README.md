@@ -1,4 +1,4 @@
-## About the Repeated Arithmetic Machine
+## Repeated Arithmetic Machine
 
 This project began from a simple idea: what if the output of an arithmetic operation could be fed back into the input? 
 
