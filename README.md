@@ -5,8 +5,9 @@ This project began from a simple idea: what if the output of an arithmetic opera
 The first prototype was very basic — it could only perform addition and take feedback. But as I explored the possibilities, I
 kept improving the machine:
 
-- [V1](RAM_V1) -> Manual Arithmetic Logic and feedback capability
-- [V2](RAM_V2) -> Low amount of Automation
+- [V0](RAM_Engine) -> Proof of concept
+- [V1](RAM_V1) -> Manual Arithmetic Logic and 2's complement handling
+- [V2](RAM_V2) -> Low level of Automation
 - [V3](RAM_V3) -> Self Correction, Self-awareness and high level of automation
 - [V4](RAM_V4) -> Sequential execution of Instructions stored in memory
 
