@@ -5,17 +5,16 @@ This project began from a simple idea: what if the output of an arithmetic opera
 The first prototype was very basic — it could only perform addition and take feedback. But as I explored the possibilities, I
 kept improving the machine:
 
-- Added **subtraction** and LED indicators to show which outputs were correct.  
-- Developed a **2's complement output form corrector** to handle negative results.  
-- Introduced a **comparator** to automate corrections when B > A, removing the need for manual adjustments.  
-- Implemented **multiplication**,**Division** convergence detectors, and other logic for advanced operations.
-- Enhanced the system with **self-correcting features, self-awareness, and automatic halting** to prevent data corruption.  
+- [V1](RAM_V1) -> Manual Arithmetic Logic and feedback capability
+- [V2](RAM_V2) -> Low amount of Automation
+- [V3](RAM_V3) -> Self Correction, Self-awareness and high level of automation
+- [V4](RAM_V4) -> Sequential execution of Instructions stored in memory
 
-Through each iteration, the goal was simple: make the machine **smarter, more autonomous, and more reliable**.  
+Through each iteration, the goal was simple: make the machine **smarter, more autonomous, programmable and more reliable**.  
 
-Today, the Repeated Arithmetic Machine is a modular, 4-bit arithmetic computing system with feedback-driven control, automation, and error handling — a full evolution from a simple prototype to a fully autonomous, intelligent machine.
+Today, the Repeated Arithmetic Machine is a modular, 4-bit arithmetic computing system with feedback-driven control, automation, error handling and ability to execute programs— a full evolution from a simple prototype to a fully autonomous, intelligent machine.
 
-[Machine Schematics - From Idea to Intelligence](Images/RAM_Project_Evolution.pdf)
+[Machine Schematics - From Idea to Intelligence(V1-V3)](Images/RAM_Project_Evolution.pdf)
 
 ## Current Development --> r_a_mv4(Stored Program Architecture)
 This stage represents a significant step towards understanding and recreating principles behind early programmable computers.
