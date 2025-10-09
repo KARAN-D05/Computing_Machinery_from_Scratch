@@ -1,4 +1,4 @@
----- Repeated Arithmetic Machine - Engine ----
+---- Repeated Arithmetic Machine - Engine(RAM_V0) ----
 
 ## About
 The very first implementation of the repeated arithmetic machine idea.
