@@ -1,4 +1,4 @@
-## Repeated Arithmetic Machine
+## Computing Machinery from Scratch
 
 This project began from a simple idea: what if the output of an arithmetic operation could be fed back into the input? 
 
@@ -31,6 +31,6 @@ The development of this version 4 is a hands on exploration of how program memor
 
 [More About technical details](RAM_V4/Readme_v4.md)
 
-Future Project ideas:
+## Upcoming Versions:-
 - Assembly language for the machine code instructions
 - Assembler to convert from assembly code to machine code
