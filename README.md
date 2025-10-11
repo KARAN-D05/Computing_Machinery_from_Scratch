@@ -1,7 +1,6 @@
 ## Computing Machinery from Scratch
 
 This project began from a simple idea: what if the output of an arithmetic operation could be fed back into the input? 
-
 The first prototype was very basic — it could only perform addition and take feedback. But as I explored the possibilities, I
 kept improving the machine:
 
