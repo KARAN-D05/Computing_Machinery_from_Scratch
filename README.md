@@ -30,3 +30,7 @@ The development of this version 4 is a hands on exploration of how program memor
 - Operations that would take manual intervention have been automated through machine code programming
 
 [More About technical details](RAM_V4/Readme_v4.md)
+
+Future Project ideas:
+- Assembly language for the machine code instructions
+- Assembler to convert from assembly code to machine code
