@@ -1,7 +1,7 @@
 ## 🧰 Computing Machinery from Scratch
 
 <p align="center">
-  <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="700"/>
+  <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="800"/>
   <br>
   <sub><b>🧩 R_A_MV3 </b> — self correcting, self aware and automated arithmetic computing machine.</sub>
 </p>
@@ -26,7 +26,7 @@ Today, the Repeated Arithmetic Machine(name of the computing machine) is a modul
 ## 🚀 Latest Development --> r_a_mv4(Stored Program Architecture)
 
 <p align="center">
-  <img src="RAM_V4/images/r_a_mv4.png" alt="Version 4 Hardware Integration" width="700"/>
+  <img src="RAM_V4/images/r_a_mv4.png" alt="Version 4 Hardware Integration" width="800"/>
   <br>
   <sub><b>⚙️ Version 4 Hardware Integration</b> — Complete system with sequential program execution.</sub>
 </p>
@@ -38,9 +38,9 @@ The development of this version 4 is a hands on exploration of how program memor
 **📈 Progress Made:-**
 - Developed instruction format
 - Built Memory modules that stores the machine code instructions
-- 
+  
   <p align="center">
-  <img src="RAM_V4/images/Program_Active_Memory.png" alt="Program Active Memory" width="700"/>
+  <img src="RAM_V4/images/Program_Active_Memory.png" alt="Program Active Memory" width="800"/>
   <br>
   <sub><b>🧠 Program Active Memory</b> — Memory to store Machine code program and interact with machine by making code flow through it.</sub>
 </p>
