@@ -1,7 +1,7 @@
 ## 🧰 Computing Machinery from Scratch
 
 <p align="center">
-  <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="800"/>
+  <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="700"/>
 </p>
 
 
@@ -24,10 +24,10 @@ Today, the Repeated Arithmetic Machine(name of the computing machine) is a modul
 ## 🚀 Latest Development --> r_a_mv4(Stored Program Architecture)
 
 <p align="center">
-  <img src="RAM_V4/images/Program_Active_Memory.png" width="400" />
-  <img src="RAM_V4/images/r_a_mv4.png" width="400" />
+  <img src="RAM_V4/images/r_a_mv4.png" alt="Version 4 Hardware Integration" width="700"/>
+  <br>
+  <sub><b>⚙️ Version 4 Hardware Integration</b> — Complete system with sequential program execution.</sub>
 </p>
-
 
 This stage represents a significant step towards understanding and recreating principles behind early programmable computers.
 This is done in order to understand how instructions can be stored in memory and executed sequentially.
@@ -36,6 +36,13 @@ The development of this version 4 is a hands on exploration of how program memor
 **📈 Progress Made:-**
 - Developed instruction format
 - Built Memory modules that stores the machine code instructions
+- 
+  <p align="center">
+  <img src="RAM_V4/images/Program_Active_Memory.png" alt="Program Active Memory" width="700"/>
+  <br>
+  <sub><b>🧩 Program Active Memory</b> — Memory interaction layer for program execution.</sub>
+</p>
+
 - Developed units that facilitate Controlled flow for execution of instructions
 - Successfully demonstrated programs like loading data, then adding them, then taking a feedback and subtracting it from some other data
 - Operations that would take manual intervention have been automated through machine code programming
