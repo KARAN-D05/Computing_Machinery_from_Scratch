@@ -3,7 +3,7 @@
 <p align="center">
   <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="700"/>
   <br>
-  <sub><b>🧩 R_A_MV3 </b> — self correcting, self aware and automated arithmetic computing machine.</sub>
+  <sub><b>🧩 R_A_MV3 </b> - self correcting, self aware and automated arithmetic computing machine.</sub>
 </p>
 
 
@@ -28,7 +28,7 @@ Today, the Repeated Arithmetic Machine(name of the computing machine) is a modul
 <p align="center">
   <img src="RAM_V4/images/r_a_mv4.png" alt="Version 4 Hardware Integration" width="700"/>
   <br>
-  <sub><b>⚙️ Version 4 Hardware Integration</b> — Complete system with sequential program execution.</sub>
+  <sub><b>⚙️ R_A_MV4 </b> - Complete system with sequential program execution.</sub>
 </p>
 
 This stage represents a significant step towards understanding and recreating principles behind early programmable computers.
@@ -42,7 +42,7 @@ The development of this version 4 is a hands on exploration of how program memor
   <p align="center">
   <img src="RAM_V4/images/Program_Active_Memory.png" alt="Program Active Memory" width="700"/>
   <br>
-  <sub><b>🧠 Program Active Memory</b> — Memory to store Machine code program and interact with machine by making code flow through it.</sub>
+  <sub><b>🧠 Program Active Memory</b> - Memory to store Machine code program and interact with machine by making code flow through it.</sub>
 </p>
 
 - Developed units that facilitate Controlled flow for execution of instructions
