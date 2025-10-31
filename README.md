@@ -42,7 +42,7 @@ The development of this version 4 is a hands on exploration of how program memor
   <p align="center">
   <img src="RAM_V4/images/Program_Active_Memory.png" alt="Program Active Memory" width="700"/>
   <br>
-  <sub><b>🧩 Program Active Memory</b> — Memory to store Machine code program and interact with machine by making code flow through it.</sub>
+  <sub><b>🧠 Program Active Memory</b> — Memory to store Machine code program and interact with machine by making code flow through it.</sub>
 </p>
 
 - Developed units that facilitate Controlled flow for execution of instructions
