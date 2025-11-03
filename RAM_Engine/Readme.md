@@ -1,7 +1,12 @@
----- Repeated Arithmetic Machine - Engine(RAM_V0) ----
+## ---- Repeated Arithmetic Machine - Engine(RAM_V0) ----
 
 ## About
 The very first implementation of the repeated arithmetic machine idea.
+
+<p align="center">
+  <img src="images/RAM_Engine.png" 
+       width="700"/>
+</p>
 
 ## Features
 - supports only 2 arithmetic operations (Addition & Subtraction) 
