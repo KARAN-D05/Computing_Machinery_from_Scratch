@@ -5,6 +5,11 @@
 - Instructions in machine code are stored in memory and are executed sequentially
 - Instead of manually controlling each operation, v4 can now load and execute a sequence of instructions stored in memory.
 
+<p align="center">
+  <img src="images/r_a_mv4.png" 
+       width="750"/>
+</p>
+
 ## Features
 - A memory unit to store the program
 - Can sequentially execute multiple instructions without any intervention
