@@ -1,4 +1,4 @@
-## ---- Repeated Arithmetic Machine - V1 ----
+# Repeated Arithmetic Machine - V1 
 
 ## About
 - A minimal extension to the RAM Engine.
