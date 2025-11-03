@@ -8,6 +8,7 @@
        width="750"/>
 </p
 
+
 ## Features
 - Handles 2's complement result and outputs correct result
 - Manual pin if B>A initially in case of subtraction to get correct result.
