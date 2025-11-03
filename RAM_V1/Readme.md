@@ -6,7 +6,7 @@
 <p align="center">
   <img src="images/r_a_mv1_Schematic.png" 
        width="750"/>
-<p
+</p>
 
 ## Features
 - Handles 2's complement result and outputs correct result
