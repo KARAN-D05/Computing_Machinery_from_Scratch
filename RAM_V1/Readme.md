@@ -1,7 +1,12 @@
----- Repeated Arithmetic Machine - V1 ----
+## ---- Repeated Arithmetic Machine - V1 ----
 
 ## About
 - A minimal extension to the RAM Engine.
+
+<p align="center">
+  <img src="images/r_a_mv1_Schematic.png" 
+       width="750"/>
+</p
 
 ## Features
 - Handles 2's complement result and outputs correct result
