@@ -4,7 +4,7 @@
 The very first implementation of the repeated arithmetic machine idea.
 
 <p align="center">
-  <img src="images/RAM_Engine.png" 
+  <img src="images/r_a_m_Engine_Schematic.png" 
        width="700"/>
 </p>
 
