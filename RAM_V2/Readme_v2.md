@@ -4,6 +4,11 @@
 - Full automation for 2's complement result handling. 
 - A minimal extension to V1, now with automatic correction for negative results.
 
+<p align="center">
+  <img src="images/r_a_mv2_Schematic.png" 
+       width="750"/>
+</p>
+
 ## Features
 - Automatically detects if B > A using a comparator. 
 - Corrects the 2's complement output without any manual intervention. 
