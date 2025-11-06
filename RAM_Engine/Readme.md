@@ -32,7 +32,7 @@ The very first implementation of the repeated arithmetic machine idea.
 2. **Clone or Download the Repository** 
    - To clone via Git (recommended):
      ```bash
-     git clone https://github.com/KARAN-D05/Autonomous_Arithmetic_Machine.git
+     git clone https://github.com/KARAN-D05/Computing_Machinery_from_Scratch.git
      ```
    - Or download ZIP from GitHub and extract it.
 
