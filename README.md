@@ -1,4 +1,4 @@
-## 🧰 Computing Machinery from Scratch
+# 🧰 Computing Machinery from Scratch
 
 <p align="center">
   <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="700"/>
