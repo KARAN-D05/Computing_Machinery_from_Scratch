@@ -39,7 +39,7 @@
 
 3. **Understand the Inputs and Outputs** 
    - Follow the input pins labeled for arithmetic operations. 
-   - Version 3 handles all corrections and automations internally — no manual adjustments needed.
+   - Version 3 handles all corrections and automations internally - no manual adjustments needed.
 
 4. **Simulate the Machine** 
    - Apply different inputs to see fully autonomous operation. 
