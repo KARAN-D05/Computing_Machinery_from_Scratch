@@ -8,7 +8,7 @@
 
 
 This project began from a simple idea: what if the output of an arithmetic operation could be fed back into the input? 
-The first prototype was very basic — it could only perform addition and take feedback. But as I explored the possibilities, I
+The first prototype was very basic - it could only perform addition and take feedback. But as I explored the possibilities, I
 kept improving the machine:
 
 - [V0](RAM_Engine) -> Proof of concept
@@ -19,7 +19,7 @@ kept improving the machine:
 
 Through each iteration, the goal was simple: make the machine **smarter, more autonomous, programmable and more reliable**.  
 
-Today, the Repeated Arithmetic Machine(name of the computing machine) is a modular, 4-bit arithmetic computing system with feedback-driven control, automation, error handling and ability to execute programs— a full evolution from a simple prototype to a fully autonomous, intelligent machine.
+Today, the `Repeated Arithmetic Machine`(name of the computing machine) is a modular, 4-bit arithmetic computing system with feedback-driven control, automation, error handling and ability to execute programs— a full evolution from a simple prototype to a fully autonomous, intelligent machine.
 
 💡[Machine Schematics - From Idea to Intelligence(V1-V3)](Images/RAM_Project_Evolution.pdf)
 
