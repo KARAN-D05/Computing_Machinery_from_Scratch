@@ -42,4 +42,4 @@
 6. **Tips for Users** 
    - Watch output LEDs for feedback and automatic corrections.
    - Refer to the README for details on features and supported operations.
-   - See [RAM_Engine] for core functionality.
+   - See [RAM_Engine](../RAM_Engine) for core functionality.
