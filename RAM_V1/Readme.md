@@ -25,12 +25,12 @@
    - Download and install from: [Logisim Evolution GitHub](https://github.com/logisim-evolution/logisim-evolution)
 
 2. **📂Open the Circuit File** 
-   - Navigate to the `RAM_v1` folder (or wherever `r_a_mv1.circ` is located). 
+   - Navigate to the RAM_V1 folder. 
    - Open `r_a_mv1.circ` in Logisim Evolution.
 
 3. **🔌Understand the Inputs and Outputs** 
    - Follow the input pins labeled for your arithmetic operations (addition, subtraction, etc.). 
-   - Observe the output pins — Version 1 includes **2's complement output correction**.
+   - Observe the output pins - Version 1 includes **2's complement output correction**.
 
 4. **▶️Simulate the Machine** 
    - Apply different inputs to see how the machine performs operations. 
