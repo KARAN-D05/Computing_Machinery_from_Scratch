@@ -9,12 +9,12 @@ The very first implementation of the repeated arithmetic machine idea.
 </p>
 
 ## ✨Features
-- ➕ supports only 2 arithmetic operations (Addition & Subtraction) 
-- 🎚️ A selector pin, output pin, Feedback pin, Reset pin
+-  supports only 2 arithmetic operations (Addition & Subtraction) 
+-  A selector pin, output pin, Feedback pin, Reset pin
 
 ## ⚠️Limitations
-- ❌ No error correction
-- 🚫 No overflow detection
+-  No error correction
+-  No overflow detection
 
 ## 💡Significance
 - A proof of concept that repeated arithmetic and feedback could form basis of a machine
@@ -26,24 +26,24 @@ The very first implementation of the repeated arithmetic machine idea.
 
 ## 🧰How to Run This Project
 
-1. **🧩 Install Logisim Evolution** 
+1. **Install Logisim Evolution** 
    - Download and install from: [Logisim Evolution GitHub](https://github.com/logisim-evolution/logisim-evolution)
 
-2. **📥Clone or Download the Repository** 
+2. **Clone or Download the Repository** 
    - To clone via Git (recommended):
      ```bash
      git clone https://github.com/KARAN-D05/Computing_Machinery_from_Scratch.git
      ```
    - Or download ZIP from GitHub and extract it.
 
-3. **📂Open the Circuit File** 
+3. **Open the Circuit File** 
    - Open Logisim Evolution. 
    - Navigate to the project folder and open any `.circ` file (e.g., `r_a_m_Engine.circ`).
 
-4. **▶️Simulate the Machine** 
+4. **Simulate the Machine** 
    - Use the input pins and observe the output. 
    - Follow any instructions in the README for specific versions.
 
-5. **🚀Optional: Explore Other Versions** 
+5. **Optional: Explore Other Versions** 
    - Later versions ([r_a_mv1.circ](../RAM_V1), [r_a_mv2.circ](../RAM_V2), [r_a_mv3.circ](../RAM_V3)) include more advanced automation and self-correction.
 
