@@ -45,5 +45,5 @@ The very first implementation of the repeated arithmetic machine idea.
    - Follow any instructions in the README for specific versions.
 
 5. **🚀Optional: Explore Other Versions** 
-   - Later versions (`r_a_mv1.circ`, `r_a_mv2.circ`, `r_a_mv3.circ`) include more advanced automation and self-correction.
+   - Later versions ([r_a_mv1.circ](../RAM_V1), [r_a_mv2.circ](../RAM_V2), [r_a_mv3.circ](../RAM_V3)) include more advanced automation and self-correction.
 
