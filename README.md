@@ -33,7 +33,7 @@ Today, the Repeated Arithmetic Machine(name of the computing machine) is a modul
 
 This stage represents a significant step towards understanding and recreating principles behind early programmable computers.
 This is done in order to understand how instructions can be stored in memory and executed sequentially.
-The development of this version 4 is a hands on exploration of how program memory, sequencing and control logic forms basis of the **Von Neumann Architecture** or the **Stored Program Concept**.
+The development of this version 4 is a hands on exploration of how program memory, sequencing and control logic forms basis of the **Stored Program Execution**.
 
 **📈 Progress Made:-**
 - Developed instruction format
