@@ -10,10 +10,10 @@
 - VS-Code -> Code editing and organization
 
 ## ✅Modules Implemented
-- [Input Latch System](Input_Latch_System)
+- [Operand Storage System](Operand_Storage_System)
 
 <p align="center">
-  <img src="Input_Latch_System/images/Output_Terminal.png" 
+  <img src="Operand_Storage_System/images/Output_Terminal.png" 
        width="2000"/>
   <br>
   <sub><b> Output Terminal
