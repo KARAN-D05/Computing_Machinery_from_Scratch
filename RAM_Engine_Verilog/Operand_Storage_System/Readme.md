@@ -1,40 +1,31 @@
----- Repeated Arithmetic Machine - V1 ----
+# 🔒Operand Storage System
+- It is the combination of 2 sets of 4 D-Latches, 4 Demultiplexers, a Selector Pin and a Store Pin.
+- Used to route and store the operands in the desired latch.
 
-## About
-- A minimal extension to the RAM Engine.
+<p align="center">
+  <img src="images/waveform.png" 
+       width="2000"/>
+  <br>
+  <sub><b> Testbench Waveform
+</p>
 
-## Features
-- Handles 2's complement result and outputs correct result
-- Manual pin if B>A initially in case of subtraction to get correct result.
+## ⚙️Working Principle
+- D-Latches
+  - They are used to store the operand.
+  - Two sets of 4-D latches, thus giving the capability to store two 4-bit operands.
+  
+- Demultiplexer:
+  - Routes the 4-Bit operand to the desired Latches.
 
-## Limitations
-- No overflow detection
-- have to manually check if B>A for correct computation
+- Selector Pin:
+  - Based on its value the path to send the data is decided.
 
-## Significance
-- Demonstrated a correction unit that automatically computes output in negative range.
+- Store Pin:
+  - Stores the operand into the latches when goes from 0 to 1
 
-## How to Use Version 1 (r_a_mv1.circ)
-
-1. **Install Logisim Evolution** 
-   - Download and install from: [Logisim Evolution GitHub](https://github.com/logisim-evolution/logisim-evolution)
-
-2. **Open the Circuit File** 
-   - Navigate to the `RAM_v1` folder (or wherever `r_a_mv1.circ` is located). 
-   - Open `r_a_mv1.circ` in Logisim Evolution.
-
-3. **Understand the Inputs and Outputs** 
-   - Follow the input pins labeled for your arithmetic operations (addition, subtraction, etc.). 
-   - Observe the output pins — Version 1 includes **2's complement output correction**.
-
-4. **Simulate the Machine** 
-   - Apply different inputs to see how the machine performs operations. 
-   - Observe error handling, feedback correction, and other automated features.
-
-5. **Optional: Explore Engine Version** 
-   - For comparison, you can open `r_a_mEngine.circ` to see the base engine functionality.
-
-6. **Tips for Users** 
-   - Watch output LEDs for feedback and automatic corrections.
-   - Refer to the README for details on features and supported operations.
-   - See [RAM_Engine] for core functionality.
+<p align="center">
+  <img src="images/Output_Terminal.png" 
+       width="900"/>
+  <br>
+  <sub><b> Output Terminal
+</p
