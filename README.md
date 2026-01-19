@@ -51,8 +51,18 @@ The development of this version 4 is a hands on exploration of how program memor
 
 🔬 [More About technical details](RAM_V4/Readme.md)
 
+## 👉HDL Implementation:
+- **`Translating all modules into verilog and eventually implementing the entire machine.`**
+- RAM_Engine:
+ - [Input Latch System](RAM_Engine_Verilog/Input_Latch_System) 
+
+<p align="center">
+  <img src="RAM_Engine_Verilog/Input_Latch_System/images/waveform.png" alt="waveform" width="2500"/>
+  <br>
+  <sub><b> Waveform Analysis of Input Latch System </sub>
+</p>
+
 ## 🛠️ Upcoming Versions:
 - Assembly language for the machine code instructions
 - Assembler to convert from assembly code to machine code
 - Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
-- **`Translating all modules into Verilog and eventually implementing the entire machine.`**
