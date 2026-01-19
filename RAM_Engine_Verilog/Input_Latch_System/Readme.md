@@ -3,7 +3,7 @@
 - Used to route and store the operands in the desired latch.
 
 <p align="center">
-  <img src="Input_Latch_System/images/waveform.png" 
+  <img src="images/waveform.png" 
        width="2000"/>
   <br>
   <sub><b> Testbench Waveform
@@ -24,7 +24,7 @@
 - Stores the operand into the latches
 
 <p align="center">
-  <img src="Input_Latch_System/images/Output_Terminal.png" 
+  <img src="images/Output_Terminal.png" 
        width="600"/>
   <br>
   <sub><b> Output Terminal
