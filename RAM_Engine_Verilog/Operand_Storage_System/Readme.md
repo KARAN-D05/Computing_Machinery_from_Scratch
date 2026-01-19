@@ -10,7 +10,7 @@
 </p>
 
 ## ⚙️Working Principle
-- D-Flip-Flops
+- Manually Clocked D-Flip-Flops
   - They are used to store the operand.
   - Two sets of 4-D Flip-Flops, thus giving the capability to store two 4-bit operands.
   
