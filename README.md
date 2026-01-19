@@ -52,7 +52,6 @@ The development of this version 4 is a hands on exploration of how program memor
 🔬 [More About technical details](RAM_V4/Readme.md)
 
 ## 👉HDL Implementation:
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - **`Translating all modules into verilog and eventually implementing the entire machine.`**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - RAM_Engine:
