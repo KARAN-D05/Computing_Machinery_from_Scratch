@@ -9,7 +9,7 @@
   <sub><b> Testbench Waveform
 </p>
 
-## ⚙️Working PPrinciple
+## ⚙️Working Principle
 - D-Latches
   - They are used to store the operand.
   - Two sets of 4-D latches, thus giving the capability to store two 4-bit operands.
@@ -21,7 +21,7 @@
   - Based on its value the path to send the data is decided.
 
 - Store Pin:
-  - Stores the operand into the latches
+  - Stores the operand into the latches when goes from 0 to 1
 
 <p align="center">
   <img src="images/Output_Terminal.png" 
