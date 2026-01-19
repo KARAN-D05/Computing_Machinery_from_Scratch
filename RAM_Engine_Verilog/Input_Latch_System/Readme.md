@@ -10,22 +10,22 @@
 </p>
 
 ## ⚙️Working PPrinciple
-- `D-Latches`
-- They are used to store the operand.
-- Two sets of 4-D latches, thus giving the capability to store two 4-bit operands.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-- `Demultiplexer`
-- Routes the 4-Bit operand to the desired Latches.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-- `Selector Pin`
-- Based on its value the path to send the data is decided.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-- `Store Pin`
-- Stores the operand into the latches
+- D-Latches
+  - They are used to store the operand.
+  - Two sets of 4-D latches, thus giving the capability to store two 4-bit operands.
+  
+- Demultiplexer:
+  - Routes the 4-Bit operand to the desired Latches.
+
+- Selector Pin:
+  - Based on its value the path to send the data is decided.
+
+- Store Pin:
+  - Stores the operand into the latches
 
 <p align="center">
   <img src="images/Output_Terminal.png" 
-       width="600"/>
+       width="900"/>
   <br>
   <sub><b> Output Terminal
 </p
