@@ -55,7 +55,7 @@ The development of this version 4 is a hands on exploration of how program memor
 - **`Translating all modules into verilog and eventually implementing the entire machine.`**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - RAM_Engine:
-  - [Operand_Storage_System](RAM_Engine_Verilog/Operand_Storage_System) 
+  - [Operand Storage System](RAM_Engine_Verilog/Operand_Storage_System) 
 
 <p align="center">
   <img src="RAM_Engine_Verilog/Operand_Storage_System/images/waveform.png" alt="waveform" width="2500"/>
