@@ -10,8 +10,7 @@
 - VS-Code -> Code editing and organization
 
 ## ✅Modules Implemented
-- RAM_Engine:
-  - [Input Latch System](Input_Latch_System)
+- [Input Latch System](Input_Latch_System)
 
 <p align="center">
   <img src="Input_Latch_System/images/Output_Terminal.png" 
