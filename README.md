@@ -55,10 +55,10 @@ The development of this version 4 is a hands on exploration of how program memor
 - **`Translating all modules into verilog and eventually implementing the entire machine.`**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - RAM_Engine:
-  - [Input Latch System](RAM_Engine_Verilog/Input_Latch_System) 
+  - [Operand_Storage_System](RAM_Engine_Verilog/Operand_Storage_System) 
 
 <p align="center">
-  <img src="RAM_Engine_Verilog/Input_Latch_System/images/waveform.png" alt="waveform" width="2500"/>
+  <img src="RAM_Engine_Verilog/Operand_Storage_System/images/waveform.png" alt="waveform" width="2500"/>
   <br>
   <sub><b> Waveform Analysis of Input Latch System </sub>
 </p>
