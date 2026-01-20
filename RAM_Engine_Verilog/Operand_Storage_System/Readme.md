@@ -16,20 +16,7 @@
   
 - Demultiplexer:
   - Routes the 4-Bit operand to the desired Latches.
-
-t=0 | data_in = 1000 | sel_t = 0 | store_t = 0 |reset_t = 0 | d_ff1t = xxxx | dff2t = xxxx
-t=5 | data_in = 1000 | sel_t = 0 | store_t = 1 |reset_t = 0 | d_ff1t = 1000 | dff2t = xxxx
-t=10 | data_in = 0000 | sel_t = 1 | store_t = 1 |reset_t = 1 | d_ff1t = 0000 | dff2t = 0000
-t=15 | data_in = 1011 | sel_t = 1 | store_t = 0 |reset_t = 0 | d_ff1t = 0000 | dff2t = 0000
-t=20 | data_in = 1011 | sel_t = 1 | store_t = 1 |reset_t = 0 | d_ff1t = 0000 | dff2t = 1011
-t=25 | data_in = 1111 | sel_t = 0 | store_t = 0 |reset_t = 0 | d_ff1t = 0000 | dff2t = 1011
-t=30 | data_in = 1111 | sel_t = 0 | store_t = 1 |reset_t = 0 | d_ff1t = 1111 | dff2t = 1011
-t=35 | data_in = 1001 | sel_t = 1 | store_t = 1 |reset_t = 0 | d_ff1t = 1111 | dff2t = 1011
-t=40 | data_in = 0001 | sel_t = 0 | store_t = 0 |reset_t = 0 | d_ff1t = 1111 | dff2t = 1011
-t=45 | data_in = 1101 | sel_t = 1 | store_t = 0 |reset_t = 1 | d_ff1t = 0000 | dff2t = 0000
-t=50 | data_in = 1101 | sel_t = 1 | store_t = 1 |reset_t = 1 | d_ff1t = 0000 | dff2t = 0000
-Simulation Complete!
-
+  
 - Selector Pin:
   - Based on its value the path to send the data is decided.
 
