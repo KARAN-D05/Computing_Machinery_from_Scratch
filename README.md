@@ -52,15 +52,14 @@ The development of this version 4 is a hands on exploration of how program memor
 🔬 [More About technical details](RAM_V4/Readme.md)
 
 ## 👉HDL Implementation:
-- **`Translating all modules into verilog and eventually implementing the entire machine.`**
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 - RAM_Engine:
   - [Operand Storage System](RAM_Engine_Verilog/Operand_Storage_System) 
 
 <p align="center">
   <img src="RAM_Engine_Verilog/Operand_Storage_System/images/waveform.png" alt="waveform" width="2500"/>
   <br>
-  <sub><b> Waveform Analysis of Input Latch System </sub>
+  <sub><b> Waveform Analysis of Operand Storage System </sub>
 </p>
 
 ## 🛠️ Upcoming Versions:
