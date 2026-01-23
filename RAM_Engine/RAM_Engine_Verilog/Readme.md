@@ -1,40 +1,25 @@
----- Repeated Arithmetic Machine - V1 ----
+# 💻 Verilog Implementation
+- Implementing all the modules of the r_a_m in Verilog step by step for each version as it was developed.
 
-## About
-- A minimal extension to the RAM Engine.
+## 🎯My Approach
+- To rigorously test the modules using testbenches to ensure correctness before integration.
 
-## Features
-- Handles 2's complement result and outputs correct result
-- Manual pin if B>A initially in case of subtraction to get correct result.
+## 🛠️Tools Used
+- Icarus Verilog -> Simulation
+- GtkWave -> Waveform Analysis
+- VS-Code -> Code editing and organization
 
-## Limitations
-- No overflow detection
-- have to manually check if B>A for correct computation
+## ✅Modules Implemented
+- [Operand Storage System](Operand_Storage_System)
 
-## Significance
-- Demonstrated a correction unit that automatically computes output in negative range.
+<p align="center">
+  <img src="Operand_Storage_System/images/waveform.png" alt="waveform" width="2500"/>
+  <br>
+  <sub><b> Waveform Analysis of Operand Storage System </sub>
+</p>
 
-## How to Use Version 1 (r_a_mv1.circ)
-
-1. **Install Logisim Evolution** 
-   - Download and install from: [Logisim Evolution GitHub](https://github.com/logisim-evolution/logisim-evolution)
-
-2. **Open the Circuit File** 
-   - Navigate to the `RAM_v1` folder (or wherever `r_a_mv1.circ` is located). 
-   - Open `r_a_mv1.circ` in Logisim Evolution.
-
-3. **Understand the Inputs and Outputs** 
-   - Follow the input pins labeled for your arithmetic operations (addition, subtraction, etc.). 
-   - Observe the output pins — Version 1 includes **2's complement output correction**.
-
-4. **Simulate the Machine** 
-   - Apply different inputs to see how the machine performs operations. 
-   - Observe error handling, feedback correction, and other automated features.
-
-5. **Optional: Explore Engine Version** 
-   - For comparison, you can open `r_a_mEngine.circ` to see the base engine functionality.
-
-6. **Tips for Users** 
-   - Watch output LEDs for feedback and automatic corrections.
-   - Refer to the README for details on features and supported operations.
-   - See [RAM_Engine] for core functionality.
+<p align="center">
+  <img src="Operand_Storage_System/images/.Output_Terminal.png" alt="waveform" width="700"/>
+  <br>
+  <sub><b> Waveform Analysis of Operand Storage System </sub>
+</p>
