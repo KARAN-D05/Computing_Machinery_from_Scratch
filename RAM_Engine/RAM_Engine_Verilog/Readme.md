@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="Operand_Storage_System/images/.Output_Terminal.png" alt="waveform" width="700"/>
+  <img src="Operand_Storage_System/images/Output_Terminal.png" alt="waveform" width="700"/>
   <br>
-  <sub><b> Waveform Analysis of Operand Storage System </sub>
+  <sub><b> Output Terminal </sub>
 </p>
