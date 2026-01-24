@@ -9,7 +9,7 @@ module testbench;
   wire [3:0] d_ff1t;
   wire [3:0] d_ff2t;
   
-  ram_engine dut(
+  operand_storage_system dut(
     .data_in(data_in_t),
     .sel(sel_t),
     .store_clk(store_clkt),
@@ -93,4 +93,5 @@ module testbench;
     $display("Simulation Complete!");
     $finish;
   end
+
 endmodule
