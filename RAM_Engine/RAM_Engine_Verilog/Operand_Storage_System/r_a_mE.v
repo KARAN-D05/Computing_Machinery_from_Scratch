@@ -1,4 +1,4 @@
-module ram_engine(
+module operand_storage_system(
     input  [3:0] data_in,
     input        sel,
     input        store_clk,   // manual clock
