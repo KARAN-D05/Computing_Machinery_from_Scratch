@@ -3,7 +3,7 @@
 <p align="center">
   <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="700"/>
   <br>
-  <sub><b>🧩 R_A_MV3 </b> - self correcting, self aware and automated arithmetic computing machine.</sub>
+  <sub><b>🧩 R_A_MV3 </b> - self correcting and automated arithmetic computing machine.</sub>
 </p>
 
 
@@ -14,7 +14,7 @@ kept improving the machine:
 - [V0](RAM_Engine) -> Proof of concept
 - [V1](RAM_V1) -> Manual Arithmetic Logic and 2's complement handling
 - [V2](RAM_V2) -> Low level of Automation
-- [V3](RAM_V3) -> Self Correction, Self-awareness and high level of automation
+- [V3](RAM_V3) -> Self Correction, State Based Control and high level of automation
 - [V4](RAM_V4) -> Sequential execution of Instructions stored in memory
 
 Through each iteration, the goal was simple: make the machine **smarter, more autonomous, programmable and more reliable**.  
