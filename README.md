@@ -19,7 +19,7 @@ kept improving the machine:
 
 Through each iteration, the goal was simple: make the machine **smarter, more autonomous, programmable and more reliable**.  
 
-Today, the Repeated Arithmetic Machine(name of the computing machine) is a modular, 4-bit arithmetic computing system with feedback-driven control, automation, error handling and ability to execute programs - a full evolution from a simple prototype to a fully autonomous machine.
+Today, the `Repeated Arithmetic Machine`(name of the computing machine) is a modular, 4-bit arithmetic computing system with feedback-driven control, automation, error handling and ability to execute programs - a full evolution from a simple prototype to a fully autonomous machine.
 
 💡[Machine Schematics - From Idea to Implementation(V1-V3)](Images/RAM_Project_Evolution.pdf)
 
@@ -51,7 +51,7 @@ The development of this version 4 is a hands on exploration of how program memor
 
 🔬 [More About technical details](RAM_V4/Readme.md)
 
-## 👉HDL Implementation:
+## 👉Verilog Implementation:
 
 - RAM_Engine:
   - [Operand Storage System](RAM_Engine/RAM_Engine_Verilog/Operand_Storage_System)
