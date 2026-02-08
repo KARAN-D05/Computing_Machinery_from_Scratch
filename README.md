@@ -66,3 +66,7 @@ The development of this version 4 is a hands on exploration of how program memor
 - Assembly language for the machine code instructions
 - Assembler to convert from assembly code to machine code
 - Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
+
+## 📜 License
+- Source code, HDL, and Logisim circuit files are licensed under the MIT License.
+- Documentation, diagrams, images, and PDFs are licensed under Creative Commons Attribution 4.0 (CC BY 4.0).
