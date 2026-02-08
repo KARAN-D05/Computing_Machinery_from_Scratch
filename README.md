@@ -58,7 +58,6 @@ The development of this version 4 is a hands on exploration of how program memor
   
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Operand_Storage_System/images/waveform.png" alt="waveform" width="2500"/>
-  <br>
   <sub><b> Waveform Analysis of Operand Storage System </sub>
 </p>
 
