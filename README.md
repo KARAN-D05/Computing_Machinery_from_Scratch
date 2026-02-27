@@ -23,6 +23,11 @@ Today, the `Repeated Arithmetic Machine`(name of the computing machine) is a mod
 
 💡[Machine Schematics - From Idea to Implementation(V1-V3)](Images/RAM_Project_Evolution.pdf)
 
+## ⚙️ Implementation Stack
+![Logisim Circuits](https://img.shields.io/badge/Logisim%20Circuits-1F4E79?style=for-the-badge)
+![Logisim Circuits](https://img.shields.io/badge/Logisim%20Circuits-2C3E50?style=for-the-badge)
+![Verilog](https://img.shields.io/badge/Verilog-000000?style=for-the-badge)
+
 ## 🚀 Latest Development --> r_a_mv4(Stored Program Architecture)
 
 <p align="center">
