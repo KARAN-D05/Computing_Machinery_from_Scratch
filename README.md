@@ -49,10 +49,8 @@ The development of this version 4 is a hands on exploration of how program memor
   <sub><b>🧠 Program Active Memory</b> - Memory to store Machine code program and interact with machine by making code flow through it.</sub>
 </p>
 
-RAM_V4/r_a_mv4-machine-code-instruction-format.png
-
 <p align="center">
-  <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="1000"/>
+  <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="800"/>
   <br>
   <sub><b> 🧩 Machine Code Instruction Format</b> - Memory to store Machine code program and interact with machine by making code flow through it.</sub>
 </p>
