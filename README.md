@@ -49,15 +49,15 @@ The development of this version 4 is a hands on exploration of how program memor
   <sub><b>🧠 Program Active Memory</b> - Memory to store Machine code program and interact with machine by making code flow through it.</sub>
 </p>
 
-<p align="center">
-  <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="800"/>
-  <br>
-  <sub><b> 🧩 Machine Code Instruction Format</b> - Memory to store Machine code program and interact with machine by making code flow through it.</sub>
-</p>
-
 - Developed units that facilitate Controlled flow for execution of instructions
 - Successfully demonstrated programs like loading data, then adding them, then taking a feedback and subtracting it from some other data
 - Operations that would take manual intervention have been automated through machine code programming
+
+<p align="center">
+  <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="600"/>
+  <br>
+  <sub><b> 🧩 Machine Code Instruction Format</b> - Memory to store Machine code program and interact with machine by making code flow through it.</sub>
+</p>
 
 🔬 [More About technical details](RAM_V4/Readme.md)
 
