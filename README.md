@@ -1,5 +1,5 @@
 # 🧰 Computing Machinery from Scratch
-
+## 4-Bit Feedback-Driven Stored-Program Machine
 <p align="center">
   <img src="RAM_V3/images/r_a_mv3_Schematic.png" alt="Version-3" width="800"/>
   <br>
