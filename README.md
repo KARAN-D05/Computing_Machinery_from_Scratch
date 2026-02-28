@@ -71,7 +71,7 @@ The development of this version 4 is a hands on exploration of how program memor
   <sub> Waveform Analysis of Operand Storage System </sub>
 </p>
 
-## 🛠️ Upcoming Versions:
+## ✅ Assembly & Assembler - Built
 - Assembly language for the machine code instructions
 - Assembler to convert from assembly code to machine code
 - Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
