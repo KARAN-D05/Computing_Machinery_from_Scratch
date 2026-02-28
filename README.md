@@ -1,4 +1,4 @@
-# <h1 align="center">🧰 Computing Machinery from Scratch</h1>
+# 🧰 Computing Machinery from Scratch
 ## <h3 align="center">🧮4-Bit Feedback-Driven Stored-Program Machine</h3>
 
 <p align="center">
