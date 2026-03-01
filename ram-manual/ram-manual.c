@@ -18,7 +18,7 @@
 //  Machine  : Repeated Arithmetic Machine (R.A.M)
 //  File     : ram-manual.c
 //  Covers   : RAM Engine (V0), V1, V2, V3, V4
-//  Author   : KARAN-D05
+//  Author   : Karan Diwan
 //  Date     : 2026
 // ============================================================
 
