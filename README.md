@@ -70,6 +70,24 @@ The development of this version 4 is a hands on exploration of how program memor
   <sub> Waveform Analysis of Operand Storage System </sub>
 </p>
 
+## 🛠️ Toolchain
+
+This project includes a built-in reference manual that can be
+queried directly from your terminal without opening any files.
+
+**Linux / Mac:**
+```bash
+curl -O https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/ram-manual/run-ram-manual.sh
+chmod +x run-ram-manual.sh
+./run-ram-manual.sh
+```
+
+**Windows:**
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/ram-manual/run-ram-manual.ps1" -OutFile "run-ram-manual.ps1"
+powershell -ExecutionPolicy Bypass -File run-ram-manual.ps1
+```
+
 ## ✅ Assembly & Assembler - Built
 - Assembly language for the machine code instructions
 - Assembler to convert from assembly code to machine code
