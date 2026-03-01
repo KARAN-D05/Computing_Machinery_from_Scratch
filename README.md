@@ -2,7 +2,7 @@
 ## 🧮 4-Bit Feedback-Driven Stored-Program Machine
 
 <p align="center">
-  <img src="RAM_V3/images/r_a_mv3_schematic.png" alt="Version-3" width="800"/>
+  <img src="RAM_V3/images/r_a_mv3-Division.gif" alt="Version-3" width="1000"/>
   <br>
   <sub><b>🧩 R_A_MV3 </b> - self correcting and automated arithmetic computing machine.</sub>
 </p>
