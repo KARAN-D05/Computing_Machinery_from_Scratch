@@ -72,8 +72,7 @@ The development of this version 4 is a hands on exploration of how program memor
 
 ## 🛠️ Toolchain
 
-This project includes a built-in reference manual that can be
-queried directly from your terminal without opening any files.
+This project includes a built-in reference manual that can be queried directly from your terminal. View full manual: [ram-manual](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch/tree/main/ram-manual)
 
 **Linux / Mac:**
 ```bash
