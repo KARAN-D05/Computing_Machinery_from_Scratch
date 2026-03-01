@@ -6,7 +6,7 @@
 - Developed iteratively from the base engine through V1 and V2 and other versions in between, now incorporating advanced automation and error handling.
 
 <p align="center">
-  <img src="images/r_a_mv3_Schematic.png" 
+  <img src="images/r_a_mv3_schematic.png" 
        width="750"/>
 </p>
 
