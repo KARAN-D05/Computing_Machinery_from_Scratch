@@ -87,6 +87,21 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Ma
 powershell -ExecutionPolicy Bypass -File run-ram-manual.ps1
 ```
 
+Full computing stack manual covering both the RAM hardware and this Assembly Language. One command for the complete reference: 
+View full manual: [stack-manual](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch/tree/main/stack-manual)
+
+**Linux / Mac:**
+```bash
+curl -O https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/stack-manual/run-stack-manual.sh
+chmod +x run-stack-manual.sh
+./run-stack-manual.sh
+```
+**Windows:**
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/stack-manual/run-stack-manual.ps1" -OutFile "run-stack-manual.ps1"
+powershell -ExecutionPolicy Bypass -File run-stack-manual.ps1
+```
+
 ## ✅ Assembly & Assembler - Built
 - Assembly language for the machine code instructions
 - Assembler to convert from assembly code to machine code
