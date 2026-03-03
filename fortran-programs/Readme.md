@@ -4,7 +4,7 @@ These programs demonstrate the core computations of the **Repeated Arithmetic Ma
 
 ## Why Fortran?
 
-Fortran (Formula Translation, 1957) was the first high-level language designed to express exactly the kind of numerical computations this machine performs in hardware. The connection is direct — the same operations the RAM machine executes in logic gates, Fortran describes in human-readable code.
+Fortran (Formula Translation, 1957) was the first high-level language designed to express exactly the kind of numerical computations this machine performs in hardware. The connection is direct - the same operations the RAM machine executes in logic gates, Fortran describes in human-readable code.
 
 This completes the computing stack built in this project:
 ```
