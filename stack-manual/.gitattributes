@@ -1,4 +1,2 @@
 # Manual files are documentation not source code
 stack-manual.c linguist-documentation=true
-run-stack-manual.ps1 linguist-documentation=true
-run-stack-manual.sh linguist-documentation=true
