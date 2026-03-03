@@ -46,4 +46,3 @@ sudo apt install gfortran
 gfortran addition.f90 -o addition
 ./addition
 ```
-```
