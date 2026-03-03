@@ -46,3 +46,9 @@ sudo apt install gfortran
 gfortran addition.f90 -o addition
 ./addition
 ```
+
+**Windows (Powershell):**
+```Powershell
+gfortran addition.f90 -o addition
+./addition
+```
