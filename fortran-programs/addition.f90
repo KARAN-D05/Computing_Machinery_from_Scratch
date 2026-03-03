@@ -21,12 +21,5 @@ program addition
     print *, "--------------------------------------------"
     print *, " A + B = ", output
     print *, "============================================"
-    print *, " Hardware note:"
-    print *, " Output lines are 5-bit (range 0-31)."
-    print *, " 9 + 3 = 12, within 4-bit range, no issues."
-    print *, " No halt from large output alone."
-    print *, " Halt only triggers if a 5-bit result"
-    print *, " is then fed back via FBK."
-    print *, "============================================"
     
 end program addition
