@@ -1,31 +1,3 @@
-! ============================================================
-!  addition.f90
-! ------------------------------------------------------------
-!  Demonstrates addition the way the RAM hardware does it.
-!
-!  In the RAM machine:
-!    Selector pin = 0 -> data goes into Register A
-!    Selector pin = 1 -> data goes into Register B
-!    Mode pin     = 0 -> Addition (default operation)
-!    Mode pin     = 1 -> Subtraction
-!
-!  Addition is the DEFAULT operation of the machine.
-!  When Mode pin is 0, the ALU adds Register A and
-!  Register B and puts the result on the Output pins.
-!
-!  Output range:
-!    Output lines are 5-bit and can display up to 31.
-!    No halt occurs from a large result alone.
-!    Halt only triggers when a 5-bit result (> 15) is
-!    fed back via FBK, because FBK only takes the lower
-!    4 bits, which would corrupt the computation.
-!
-!  Hardware equivalent:
-!    LOAD-0-XXXX  -> Selector=0, data -> Register A
-!    LOAD-1-XXXX  -> Selector=1, data -> Register B
-!    ADD          -> Mode=0, A + B -> Output
-! ------------------------------------------------------------
-
 program addition
 
     implicit none
