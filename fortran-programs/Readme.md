@@ -56,4 +56,3 @@ Replace `addition` with any program name to run the others.
 ## Connection to asm-v0 Sample Programs
 
 The feedback chain in `feedback.f90` directly mirrors **P2** from the asm-v0 sample programs. The division trace in `division.f90` shows the same intermediate convergence cycles as **P3**. The multiplication trace matches **P4**.
-```
