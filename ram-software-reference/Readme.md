@@ -38,7 +38,12 @@ It is readable as pseudocode. Even someone who has never written Fortran can rea
 
 Any modern Fortran compiler works. Using `gfortran`:
 
-```bash / Powershell
+```bash
+gfortran operand-storage.f90 -o operand-storage
+./operand-storage
+```
+
+```Powershell
 gfortran operand-storage.f90 -o operand-storage
 ./operand-storage
 ```
