@@ -1,3 +1,19 @@
+! ============================================================
+!  operand_storage.f90
+! ------------------------------------------------------------
+!  Demonstrates operand storage the way the RAM hardware does it.
+!
+!  In the RAM machine:
+!    Selector pin = 0  ->  Register A
+!    Selector pin = 1  ->  Register B
+!    Store pin = 0     ->  no latch, data just sitting on lines
+!    Store pin = 1     ->  flip-flops latch whatever is on the
+!                          data lines into the selected register
+!
+!  This program shows Register A (Selector = 0).
+!  Data sits on the lines first. Nothing is stored yet.
+!  When Store goes HIGH, the value is latched into Register A.
+! ------------------------------------------------------------
 program operand_storage
     implicit none
 
