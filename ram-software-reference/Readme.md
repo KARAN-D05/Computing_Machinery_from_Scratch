@@ -38,9 +38,9 @@ It is readable as pseudocode. Even someone who has never written Fortran can rea
 
 Any modern Fortran compiler works. Using `gfortran`:
 
-```bash
-gfortran operand_storage.f90 -o operand_storage
-./operand_storage
+```bash / Powershell
+gfortran operand-storage.f90 -o operand-storage
+./operand-storage
 ```
 ---
 
@@ -48,6 +48,6 @@ gfortran operand_storage.f90 -o operand_storage
 
 | File | Hardware Mechanism | RAM Version |
 |---|---|---|
-| `operand_storage.f90` | Operand storage system - selector pin routes data to Register A or Register B | V0+ |
+| `operand-storage.f90` | Operand storage system - selector pin routes data to Register A or Register B | V0+ |
 
 *More programs will be added as each hardware mechanism is covered.*
