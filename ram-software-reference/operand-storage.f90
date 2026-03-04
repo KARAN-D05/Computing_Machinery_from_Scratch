@@ -1,7 +1,4 @@
 ! ------------------------------------------------------------
-!  Demonstrates operand storage the way the RAM hardware does it.
-!
-!  In the RAM machine:
 !    Selector pin = 0  ->  Register A
 !    Selector pin = 1  ->  Register B
 !    Store pin = 0     ->  no latch, data just sitting on lines
@@ -26,8 +23,6 @@ program operand_storage
     data_lines = 9   ! Binary: 1001
     reg_a      = 0   ! Register A is empty
 
-    print *, "============================================"
-    print *, " RAM Machine - Operand Storage"
     print *, "============================================"
     print *, " Selector    = ", selector,   "  (Register A)"
     print *, " Store       = ", store,      "  (LOW - no latch)"
