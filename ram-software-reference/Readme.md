@@ -34,16 +34,11 @@ It is readable as pseudocode. Even someone who has never written Fortran can rea
 
 ---
 
-## How to compile and run
+## How to compile and run (Powershell/Bash)
 
 Any modern Fortran compiler works. Using `gfortran`:
 
-```bash
-gfortran operand-storage.f90 -o operand-storage
-./operand-storage
 ```
-
-```Powershell
 gfortran operand-storage.f90 -o operand-storage
 ./operand-storage
 ```
