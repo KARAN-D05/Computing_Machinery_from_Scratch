@@ -40,11 +40,11 @@ It has no standard library to hide behind. There are no collections, no hash map
 
 Each program follows the same structure:
 
-1. **Header comment** — explains which hardware mechanism is being modelled, which RAM version it applies to, and what the program does and does not cover.
-2. **Variable declarations** — each variable corresponds to a real hardware pin, line, or register. The comments explain what the physical signal is.
-3. **Initial state** — the machine state at power-up or after RESET. All registers zero, all pins LOW.
-4. **Operations** — each operation is broken into steps that mirror the hardware sequence. Comments explain what is physically happening at each step.
-5. **Final state** — the machine state after all operations complete, with a hardware architecture note explaining the underlying mechanism.
+1. **Header comment** - explains which hardware mechanism is being modelled, which RAM version it applies to, and what the program does and does not cover.
+2. **Variable declarations** - each variable corresponds to a real hardware pin, line, or register. The comments explain what the physical signal is.
+3. **Initial state** - the machine state at power-up or after RESET. All registers zero, all pins LOW.
+4. **Operations** - each operation is broken into steps that mirror the hardware sequence. Comments explain what is physically happening at each step.
+5. **Final state** - the machine state after all operations complete, with a hardware architecture note explaining the underlying mechanism.
 
 These programs are meant to be read top to bottom like a walkthrough. Running them produces output that narrates the same sequence the hardware performs.
 
@@ -81,7 +81,3 @@ This distinction matters. The assembler is an abstraction. This reference strips
 | `operand_storage.f90` | Operand storage system — selector pin routes data to Register A or Register B | V0+ |
 
 *More programs will be added as each hardware mechanism is covered.*
-
----
-Author: Karan Diwan
-Year: 2026
