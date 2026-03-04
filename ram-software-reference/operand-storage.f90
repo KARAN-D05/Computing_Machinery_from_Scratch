@@ -1,5 +1,3 @@
-! ============================================================
-!  operand_storage.f90
 ! ------------------------------------------------------------
 !  Demonstrates operand storage the way the RAM hardware does it.
 !
