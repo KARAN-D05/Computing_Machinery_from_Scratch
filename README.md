@@ -4,7 +4,7 @@
 <p align="center">
   <img src="RAM_V3/images/r_a_mv3-Division.gif" alt="Version-3" width="1000"/>
   <br>
-  <sub><b>🧩 R_A_MV3 </b> - self correcting and automated arithmetic computing machine.</sub>
+  <sub><b>🧩 R_A_MV3 </b> - self correcting and automated arithmetic computing machine. (Performing Division)</sub>
 </p>
 
 
