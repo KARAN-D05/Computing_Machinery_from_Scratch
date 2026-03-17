@@ -1,10 +1,4 @@
 #!/bin/bash
-# ============================================================
-#  run-stack-manual.sh
-#  Full Computing Stack Manual launcher
-#  Covers: RAM Hardware (V0-V4) + Assembly Language (v0.1-v0.3)
-#  Repo: Computing_Machinery_from_Scratch
-# ============================================================
 
 set -e
 
