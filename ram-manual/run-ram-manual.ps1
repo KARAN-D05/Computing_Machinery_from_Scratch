@@ -27,6 +27,19 @@ try {
 }
 
 Write-Host ""
+Write-Host "Downloading ram-manual.bat from GitHub..."
+try {
+    Invoke-WebRequest `
+        -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/ram-manual/ram-manual.bat" `
+        -OutFile "ram-manual.bat" `
+        -ErrorAction Stop
+    Write-Host "[OK] Batch file download complete."
+} catch {
+    Write-Host "[ERROR] Batch file download failed."
+    exit 1
+}
+
+Write-Host ""
 Write-Host "Compiling..."
 gcc ram-manual.c -o ram-manual.exe
 
@@ -41,16 +54,3 @@ Write-Host "Launching ram-manual..."
 Write-Host "+--------------------------------------------------+"
 Write-Host ""
 .\ram-manual.exe
-
-Write-Host ""
-Write-Host "Downloading ram-manual.bat from GitHub..."
-try {
-    Invoke-WebRequest `
-        -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/ram-manual/ram-manual.bat" `
-        -OutFile "ram-manual.bat" `
-        -ErrorAction Stop
-    Write-Host "[OK] Batch file download complete."
-} catch {
-    Write-Host "[ERROR] Batch file download failed."
-    exit 1
-}
