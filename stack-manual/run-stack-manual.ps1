@@ -16,6 +16,19 @@ if (-Not (Test-Path $Binary)) {
     Write-Host "Compiling..."
     gcc $Source -o stack-manual.exe
 
+    Write-Host ""
+Write-Host "Downloading stack-manual.bat from GitHub..."
+try {
+    Invoke-WebRequest `
+        -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/stack-manual/stack-manual.bat" `
+        -OutFile "stack-manual.bat" `
+        -ErrorAction Stop
+    Write-Host "[OK] Batch file download complete."
+} catch {
+    Write-Host "[ERROR] Batch file download failed."
+    exit 1
+}
+    
     Write-Host "Done. Launching manual..."
     Write-Host ""
 }
