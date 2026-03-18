@@ -1,25 +1,3 @@
-# =============================================================================
-#  portmap.nim - Verilog Port Extractor
-#  Language: Nim 1.6+
-#
-#  BUILD:
-#    nim c -d:release portmap.nim
-#  RUN:
-#    ./portmap <file.v> (pretty table)
-#    ./portmap <file.v> --md (markdown)
-#
-#  BUILD + RUN (default: pretty table):
-#    nim c -r portmap.nim <file.v>
-#
-#  BUILD + RUN (Markdown output):
-#    nim c -r portmap.nim <file.v> --md
-#
-#  INSTALL NIM 
-# (Linux/macOS): sudo apt install nim
-# verify by: nim --verrsion
-# =============================================================================
-
-import std/os
 import std/strutils
 import std/sequtils
 
