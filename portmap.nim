@@ -35,13 +35,23 @@ proc extractWidth(tokens: seq[string]): string =
       return tok
   return "1"
 
+# ===================== FIX START =====================
+# Problem:
+# tokens like "out );" → last token becomes "out );"
+# earlier replace() was not robust for combined punctuation
+#
+# Solution:
+# strip(chars={...}) removes ALL unwanted trailing characters at once
+# ===================== FIX END =====================
+
 proc extractName(tokens: seq[string]): string =
   if tokens.len == 0: return ""
   var name = tokens[^1]
-  name = name.replace(",", "")
-  name = name.replace(";", "")
-  name = name.replace(")", "")
-  return name.strip()
+
+  # remove trailing punctuation safely (handles ");", ",", ")" etc.)
+  name = name.strip(chars = {' ', ',', ';', ')', '('})
+
+  return name
 
 proc parsePorts(filePath: string): seq[Port] =
   var ports: seq[Port] = @[]
