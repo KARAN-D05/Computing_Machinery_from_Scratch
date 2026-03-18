@@ -1,4 +1,4 @@
-#  portmap.nim — Verilog Port Extractor
+#  portmap.nim - Verilog Port Extractor
 #  Language: Nim 1.6+
 #  Usage:    nim c -r portmap.nim <file.v>   (compile + run)
 #            ./portmap <file.v>              (after compiling)
