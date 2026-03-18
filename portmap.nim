@@ -6,7 +6,7 @@
 #    nim c -d:release portmap.nim
 #
 #  RUN (default: pretty table):
-#    nim c portmap.nim <file.v>
+#    nim c -r portmap.nim <file.v>
 #    ./portmap <file.v>
 #
 #  RUN (Markdown output):
@@ -97,6 +97,7 @@ proc parsePorts(filePath: string): seq[Port] =
 
   return ports
 
+# -------- FIXED TABLE (dynamic widths) --------
 proc renderTable(ports: seq[Port], filePath: string) =
   let fname = filePath.extractFilename()
 
@@ -104,20 +105,35 @@ proc renderTable(ports: seq[Port], filePath: string) =
   echo "Port Map — " & fname
   echo ""
 
-  echo "+----------+-----------+--------+"
-  echo "| Port     | Direction | Width  |"
-  echo "+----------+-----------+--------+"
+  var maxName = "Port".len
+  var maxDir  = "Direction".len
+  var maxWid  = "Width".len
 
   for p in ports:
-    let name = alignLeft(p.name, 8)
-    let dir  = alignLeft(p.direction, 9)
-    let wid  = alignLeft(p.width, 6)
+    if p.name.len > maxName: maxName = p.name.len
+    if p.direction.len > maxDir: maxDir = p.direction.len
+    if p.width.len > maxWid: maxWid = p.width.len
 
-    echo "| " & name & " | " & dir & " | " & wid & " |"
+  proc line() =
+    echo "+" & repeat("-", maxName + 2) &
+         "+" & repeat("-", maxDir + 2) &
+         "+" & repeat("-", maxWid + 2) & "+"
 
-  echo "+----------+-----------+--------+"
+  line()
+  echo "| " & alignLeft("Port", maxName) &
+       " | " & alignLeft("Direction", maxDir) &
+       " | " & alignLeft("Width", maxWid) & " |"
+  line()
+
+  for p in ports:
+    echo "| " & alignLeft(p.name, maxName) &
+         " | " & alignLeft(p.direction, maxDir) &
+         " | " & alignLeft(p.width, maxWid) & " |"
+
+  line()
   echo ""
 
+# -------- MARKDOWN --------
 proc renderMarkdown(ports: seq[Port], filePath: string) =
   let fname = filePath.extractFilename()
 
