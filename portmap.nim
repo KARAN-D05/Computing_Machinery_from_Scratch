@@ -1,7 +1,24 @@
-#  portmap.nim - Verilog Port Extractor
+# =============================================================================
+#  portmap.nim — Verilog Port Extractor
 #  Language: Nim 1.6+
-#  Usage:    nim c -r portmap.nim <file.v>   (compile + run)
-#            ./portmap <file.v>              (after compiling)
+#
+#  BUILD:
+#    nim c -d:release portmap.nim
+#
+#  RUN (default: pretty table):
+#    nim c -r portmap.nim <file.v>
+#    ./portmap <file.v>
+#
+#  RUN (Markdown output):
+#    nim c -r portmap.nim <file.v> --md
+#    ./portmap <file.v> --md
+#
+#  INSTALL (Linux/macOS):
+#    nim c -d:release portmap.nim
+#    sudo cp portmap /usr/local/bin/
+#    portmap <file.v>
+#
+# =============================================================================
 
 import std/os
 import std/strutils
@@ -82,6 +99,27 @@ proc parsePorts(filePath: string): seq[Port] =
 
   return ports
 
+proc renderTable(ports: seq[Port], filePath: string) =
+  let fname = filePath.extractFilename()
+
+  echo ""
+  echo "Port Map — " & fname
+  echo ""
+
+  echo "+----------+-----------+--------+"
+  echo "| Port     | Direction | Width  |"
+  echo "+----------+-----------+--------+"
+
+  for p in ports:
+    let name = alignLeft(p.name, 8)
+    let dir  = alignLeft(p.direction, 9)
+    let wid  = alignLeft(p.width, 6)
+
+    echo "| " & name & " | " & dir & " | " & wid & " |"
+
+  echo "+----------+-----------+--------+"
+  echo ""
+
 proc renderMarkdown(ports: seq[Port], filePath: string) =
   let fname = filePath.extractFilename()
 
@@ -102,12 +140,20 @@ when isMainModule:
 
   if paramCount() < 1:
     echo "portmap — Verilog port extractor"
-    echo "Usage:  portmap <file.v> [file2.v ...]"
-    echo "Output: Markdown table of all ports"
+    echo "Usage:  portmap <file.v> [file2.v ...] [--md]"
+    echo "Output: Pretty table (default) or Markdown with --md"
     quit(1)
+
+  var useMarkdown = false
+
+  for i in 1 .. paramCount():
+    if paramStr(i) == "--md":
+      useMarkdown = true
 
   for i in 1 .. paramCount():
     let path = paramStr(i)
+
+    if path == "--md": continue
 
     if not fileExists(path):
       stderr.writeLine("ERROR: file not found: " & path)
@@ -118,4 +164,7 @@ when isMainModule:
     if ports.len == 0:
       stderr.writeLine("WARNING: no ports found in " & path)
     else:
-      renderMarkdown(ports, path)
+      if useMarkdown:
+        renderMarkdown(ports, path)
+      else:
+        renderTable(ports, path)
