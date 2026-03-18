@@ -4,14 +4,14 @@
 #
 #  BUILD:
 #    nim c -d:release portmap.nim
-#
-#  RUN (default: pretty table):
-#    nim c -r portmap.nim <file.v>
+#  RUN:
 #    ./portmap <file.v>
 #
-#  RUN (Markdown output):
+#  BUILD + RUN (default: pretty table):
+#    nim c -r portmap.nim <file.v>
+#
+#  BUILD + RUN (Markdown output):
 #    nim c -r portmap.nim <file.v> --md
-#    ./portmap <file.v> --md
 #
 #  INSTALL NIM 
 # (Linux/macOS): sudo apt install nim
@@ -97,7 +97,6 @@ proc parsePorts(filePath: string): seq[Port] =
 
   return ports
 
-# -------- FIXED TABLE (dynamic widths) --------
 proc renderTable(ports: seq[Port], filePath: string) =
   let fname = filePath.extractFilename()
 
@@ -114,26 +113,29 @@ proc renderTable(ports: seq[Port], filePath: string) =
     if p.direction.len > maxDir: maxDir = p.direction.len
     if p.width.len > maxWid: maxWid = p.width.len
 
+  let col1 = maxName + 2
+  let col2 = maxDir + 2
+  let col3 = maxWid + 2
+
   proc line() =
-    echo "+" & repeat("-", maxName + 2) &
-         "+" & repeat("-", maxDir + 2) &
-         "+" & repeat("-", maxWid + 2) & "+"
+    echo "+" & repeat("-", col1) &
+         "+" & repeat("-", col2) &
+         "+" & repeat("-", col3) & "+"
 
   line()
-  echo "| " & alignLeft("Port", maxName) &
-       " | " & alignLeft("Direction", maxDir) &
-       " | " & alignLeft("Width", maxWid) & " |"
+  echo "|" & alignLeft(" Port", col1) &
+       "|" & alignLeft(" Direction", col2) &
+       "|" & alignLeft(" Width", col3) & "|"
   line()
 
   for p in ports:
-    echo "| " & alignLeft(p.name, maxName) &
-         " | " & alignLeft(p.direction, maxDir) &
-         " | " & alignLeft(p.width, maxWid) & " |"
+    echo "|" & alignLeft(" " & p.name, col1) &
+         "|" & alignLeft(" " & p.direction, col2) &
+         "|" & alignLeft(" " & p.width, col3) & "|"
 
   line()
   echo ""
 
-# -------- MARKDOWN --------
 proc renderMarkdown(ports: seq[Port], filePath: string) =
   let fname = filePath.extractFilename()
 
