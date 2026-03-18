@@ -5,7 +5,8 @@
 #  BUILD:
 #    nim c -d:release portmap.nim
 #  RUN:
-#    ./portmap <file.v>
+#    ./portmap <file.v> (pretty table)
+#    ./portmap <file.v> --md (markdown)
 #
 #  BUILD + RUN (default: pretty table):
 #    nim c -r portmap.nim <file.v>
