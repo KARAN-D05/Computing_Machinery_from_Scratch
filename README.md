@@ -148,7 +148,3 @@ portmap file.v --md
 ## 📜License:
 - Source code, HDL, and Logisim circuit files are licensed under the MIT License.
 - Documentation, diagrams, images, and PDFs are licensed under Creative Commons Attribution 4.0 (CC BY 4.0).
-
-<p align="center">
-  <img src="Images/tva.svg" width="180"/>
-</p>
