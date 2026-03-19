@@ -58,6 +58,11 @@ The development of this version 4 is a hands on exploration of how program memor
 <p align="center">
   <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="800"/>
   <br>
+
+## ✅ Assembly & Assembler - Built
+- Assembly language for the machine code instructions
+- Assembler to convert from assembly code to machine code
+- Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
   
 🔬 [More About technical details](RAM_V4/Readme.md)
 
@@ -105,11 +110,6 @@ chmod +x run-stack-manual.sh
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/stack-manual/run-stack-manual.ps1" -OutFile "run-stack-manual.ps1"
 powershell -ExecutionPolicy Bypass -File run-stack-manual.ps1
 ```
-
-## ✅ Assembly & Assembler - Built
-- Assembly language for the machine code instructions
-- Assembler to convert from assembly code to machine code
-- Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
 
 ## ⬇️ Download This Repository
 
