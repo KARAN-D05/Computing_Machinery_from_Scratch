@@ -28,7 +28,6 @@ Today, the `Repeated Arithmetic Machine`(name of the computing machine) is a mod
 ![Verilog](https://img.shields.io/badge/Verilog-FFEA00?style=for-the-badge&logoColor=black)
 ![Logisim Circuits](https://img.shields.io/badge/Logisim%20Circuits-00C853?style=for-the-badge)
 ![Fortran](https://img.shields.io/badge/Fortran-734F96?style=for-the-badge&logoColor=white)
-![Nim](https://img.shields.io/badge/Nim-FFE953?style=for-the-badge&logoColor=black)
 
 ## 🚀 r_a_mv4(Stored Program Architecture)
 
