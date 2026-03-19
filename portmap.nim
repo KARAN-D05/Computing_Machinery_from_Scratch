@@ -1,3 +1,4 @@
+import std/os
 import std/strutils
 import std/sequtils
 
@@ -151,7 +152,7 @@ proc renderMarkdown(ports: seq[Port], filePath: string) =
 when isMainModule:
 
   if paramCount() < 1:
-    echo "portmap — Verilog port extractor"
+    echo "portmap - Verilog port extractor"
     echo "Usage:  portmap <file.v> [file2.v ...] [--md]"
     echo "Output: Pretty table (default) or Markdown with --md"
     quit(1)
