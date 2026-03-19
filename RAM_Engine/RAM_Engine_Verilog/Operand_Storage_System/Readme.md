@@ -10,7 +10,7 @@
   <sub><b> Output Terminal </sub>
 </p>
 
-### Port Map — `r_a_mE.v`
+### Port Map - `r_a_mE.v`
 
 | Port | Direction | Width |
 |------|-----------|-------|
