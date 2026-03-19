@@ -59,12 +59,13 @@ The development of this version 4 is a hands on exploration of how program memor
   <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="800"/>
   <br>
 
+🔬 [More About technical details](RAM_V4/Readme.md)
+
 ## ✅ Assembly & Assembler - Built
+- Mapping machine code to custom assembly langauge
 - Assembly language for the machine code instructions
 - Assembler to convert from assembly code to machine code
 - Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
-  
-🔬 [More About technical details](RAM_V4/Readme.md)
 
 ## 👉Verilog Implementation:
 
