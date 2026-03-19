@@ -95,7 +95,7 @@ proc renderTable(ports: seq[Port], filePath: string) =
   let fname = filePath.extractFilename()
 
   echo ""
-  echo "Port Map — " & fname
+  echo "Port Map - " & fname
   echo ""
 
   var maxName = "Port".len
