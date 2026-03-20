@@ -112,7 +112,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Ma
 powershell -ExecutionPolicy Bypass -File run-ram-manual.ps1
 ```
 
-Full computing stack manual covering both the RAM hardware and this Assembly Language. One command for the complete reference: 
+Full computing stack manual covering both the RAM hardware and its custom Assembly Language. One command for the complete reference: 
 View full manual: [stack-manual](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch/tree/main/stack-manual)
 
 **Linux / Mac:**
