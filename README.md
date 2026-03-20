@@ -76,7 +76,26 @@ The development of this version 4 is a hands on exploration of how program memor
   <sub> Waveform Analysis of Operand Storage System </sub>
 </p>
 
-## 🛠️ Toolchain
+## ⬇️ Download This Repository
+
+### 🪟 Windows
+Download → [download_repos.bat](./download_repos.bat)
+``` 
+Double-click it and pick the repo(s) you want.
+```
+
+### 🐧 Linux / macOS
+Download → [download_repos.sh](./download_repos.sh)
+```
+bash
+
+chmod +x download_repos.sh
+./download_repos.sh
+```
+
+> Always downloads the latest version.
+
+## 🛠️ Toolchain & Repo Utilities - Built to make navigating and interacting with this repo easier
 
 This project includes a built-in reference manual that can be queried directly from your terminal. View full manual: [ram-manual](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch/tree/main/ram-manual)
 
@@ -108,44 +127,26 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Ma
 powershell -ExecutionPolicy Bypass -File run-stack-manual.ps1
 ```
 
-## ⬇️ Download This Repository
-
-### 🪟 Windows
-Download → [download_repos.bat](./download_repos.bat)
-``` 
-Double-click it and pick the repo(s) you want.
-```
-
-### 🐧 Linux / macOS
-Download → [download_repos.sh](./download_repos.sh)
-```
-bash
-
-chmod +x download_repos.sh
-./download_repos.sh
-```
-
-> Always downloads the latest version.
-
-## 🔧 Tool: portmap - Verilog Port Extractor
+### 🔧 portmap - Verilog Port Extractor
 
 `portmap` is a lightweight CLI tool that extracts port definitions (`input`, `output`, `inout`) from Verilog modules and presents them in a clean table or Markdown format.
 
-### 🔗 Source
+#### 🔗 Source
 https://github.com/KARAN-D05/portmap-HDL/blob/main/portmap.nim
 
-### 📦 Release (Download Binary)
+#### 📦 Release (Download Binary)
 https://github.com/KARAN-D05/portmap-HDL/releases/tag/v1.0.0
 
-### 🚀 Usage
+#### 🚀 Usage
 ```bash
 portmap file.v
 portmap file.v --md
 ```
 
-## 🧰 Utils
-- [filetree.lua](https://github.com/KARAN-D05/portmap-HDL/tree/main/utils) - A repository file tree generator that prints a visual directory tree with file-type icons and a file count breakdown by extension (`.v`, `.circ`, `.md`, `.py` and more).
-- Works on Linux and Windows. Included automatically when downloading repos via [download_repos.bat](download_repos.bat) / [download_repos.sh](download_repos.sh).
+### 🧰 Repo Filetree Generator
+[Filetree](https://github.com/KARAN-D05/portmap-HDL/tree/main/utils) - A repository file tree generator that prints a visual directory tree with file-type icons and a file count breakdown by extension (`.v`, `.circ`, `.md`, `.py` and more).
+  
+Utils (Portmap + Filtree) - Fetched automatically as a utils/ package alongside any repo download - includes portmap binaries, filetree, and source code via [download_repos.bat](download_repos.bat) / [download_repos.sh](download_repos.sh).
 
 ## 📜License:
 - Source code, HDL, and Logisim circuit files are licensed under the MIT License.
