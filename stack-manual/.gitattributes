@@ -1,3 +1,2 @@
 # Manual files are documentation not source code
 stack-manual.c linguist-documentation=true
-run-ram-manual.sh linguist-documentation=true
