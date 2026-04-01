@@ -6,7 +6,6 @@ MANUAL_URL="https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from
 BINARY="./stack-manual"
 SOURCE="stack-manual.c"
 
-# Check if compiled binary already exists
 if [ ! -f "$BINARY" ]; then
     echo "Fetching stack-manual..."
     curl -fsSL "$MANUAL_URL" -o "$SOURCE"
