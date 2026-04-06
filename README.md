@@ -97,6 +97,7 @@ chmod +x download_repos.sh
 
 ## 🛠️ Toolchain & Repo Utilities - Built to make navigating and interacting with this repo easier
 
+### 💻 Terminal-Based Manual
 This project includes a built-in reference manual that can be queried directly from your terminal. View full manual: [ram-manual](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch/tree/main/ram-manual)
 
 **Linux / Mac:**
