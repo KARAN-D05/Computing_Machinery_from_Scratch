@@ -26,7 +26,7 @@ echo   2.  Assembler
 echo   3.  Gate-Level-Perceptron
 echo   4.  8-Bit-Computer
 echo   5.  Artificial-Neuron
-echo   6.  portmap-HDL
+echo   6.  TopoCore
 echo   A.  Download ALL repos
 echo   Q.  Quit
 echo.
