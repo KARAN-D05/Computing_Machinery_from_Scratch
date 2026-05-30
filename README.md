@@ -95,39 +95,6 @@ chmod +x download_repos.sh
 
 > Always downloads the latest version.
 
-## 🛠️ Toolchain & Repo Utilities - Built to make navigating and interacting with this repo easier
-
-### 💻 Terminal-Based Manual
-This project includes a built-in reference manual that can be queried directly from your terminal. View full manual: [ram-manual](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch/tree/main/ram-manual)
-
-**Linux / Mac:**
-```bash
-curl -O https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/ram-manual/run-ram-manual.sh
-chmod +x run-ram-manual.sh
-./run-ram-manual.sh
-```
-
-**Windows:**
-```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/ram-manual/run-ram-manual.ps1" -OutFile "run-ram-manual.ps1"
-powershell -ExecutionPolicy Bypass -File run-ram-manual.ps1
-```
-
-Full computing stack manual covering both the RAM hardware and its custom Assembly Language. One command for the complete reference: 
-View full manual: [stack-manual](https://github.com/KARAN-D05/Computing_Machinery_from_Scratch/tree/main/stack-manual)
-
-**Linux / Mac:**
-```bash
-curl -O https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/stack-manual/run-stack-manual.sh
-chmod +x run-stack-manual.sh
-./run-stack-manual.sh
-```
-**Windows:**
-```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KARAN-D05/Computing_Machinery_from_Scratch/main/stack-manual/run-stack-manual.ps1" -OutFile "run-stack-manual.ps1"
-powershell -ExecutionPolicy Bypass -File run-stack-manual.ps1
-```
-
 ## 📜License:
 - Source code, HDL, and Logisim circuit files are licensed under the MIT License.
 - Documentation, diagrams, images, and PDFs are licensed under Creative Commons Attribution 4.0 (CC BY 4.0).
