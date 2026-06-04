@@ -53,19 +53,19 @@ The development of this version 4 is a hands on exploration of how program memor
 - Successfully demonstrated programs like loading data, then adding them, then taking a feedback and subtracting it from some other data
 - Operations that would take manual intervention have been automated through machine code programming
 
-## 🛠️ Hardware-First Instruction Set Design
-- RAM follows a hardware-first design philosophy in which the instruction set emerged from the machine's native computational mechanisms rather than being specified independently and implemented afterward.
-- Each instruction corresponds directly to a dedicated hardware primitive or subsystem, such as addition, subtraction, feedback-driven computation, multiplication, division, fault recovery, or machine reset.
-- Unlike architectures that rely on complex control sequencing or microcoded decomposition of instructions, RAM exposes its fundamental hardware capabilities directly through the ISA.
-- While not a textbook RISC architecture, the system shares a reductionist spirit: instructions represent the machine's natural operations rather than abstractions translated into lengthy internal execution sequences.
-- In this sense, the software vocabulary of RAM was discovered from the hardware itself.
-
 ## 🧩 Machine Code Instruction Format
 <p align="center">
   <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="800"/>
   <br>
 
 🔬 [More About technical details](RAM_V4/Readme.md)
+
+## 🛠️ Hardware-First Instruction Set Design
+- RAM follows a hardware-first design philosophy in which the instruction set emerged from the machine's native computational mechanisms rather than being specified independently and implemented afterward.
+- Each instruction corresponds directly to a dedicated hardware primitive or subsystem, such as addition, subtraction, feedback-driven computation, multiplication, division, fault recovery, or machine reset.
+- Unlike architectures that rely on complex control sequencing or microcoded decomposition of instructions, RAM exposes its fundamental hardware capabilities directly through the ISA.
+- While not a textbook RISC architecture, the system shares a reductionist spirit: instructions represent the machine's natural operations rather than abstractions translated into lengthy internal execution sequences.
+- In this sense, the software vocabulary of RAM was discovered from the hardware itself.
 
 ## ✅ Assembly & Assembler - Built
 - Mapping machine code to custom assembly language
