@@ -10,10 +10,10 @@
 - VS-Code -> Code editing and organization
 
 ## ✅Modules Implemented
-- [Operand Storage System](Operand_Storage_System)
+- [Operand Storage System](oss.v)
 
 <p align="center">
-  <img src="Operand_Storage_System/images/waveform.png" alt="waveform" width="2500"/>
+  <img src="images/oss.png" alt="waveform" width="2500"/>
   <br>
   <sub><b> Waveform Analysis of Operand Storage System </sub>
 </p>
