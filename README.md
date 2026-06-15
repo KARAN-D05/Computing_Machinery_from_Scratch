@@ -28,6 +28,12 @@ Today, the `Repeated Arithmetic Machine`(name of the computing machine) is a mod
 ![Verilog](https://img.shields.io/badge/Verilog-FFEA00?style=for-the-badge&logoColor=black)
 ![Logisim Circuits](https://img.shields.io/badge/Logisim%20Circuits-00C853?style=for-the-badge)
 
+## 🛠️ Toolchain
+![Icarus Verilog](https://img.shields.io/badge/Icarus%20Verilog-1E88E5?style=for-the-badge)
+![GTKWave](https://img.shields.io/badge/GTKWave-8E24AA?style=for-the-badge)
+![Yosys](https://img.shields.io/badge/Yosys-F4511E?style=for-the-badge)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
 ## 🚀 r_a_mv4(Stored Program Architecture)
 
 <p align="center">
