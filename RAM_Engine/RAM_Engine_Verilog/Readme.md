@@ -13,7 +13,7 @@
 - [Operand Storage System](oss.v)
 
 <p align="center">
-  <img src="images/oss.png" alt="waveform" width="2500"/>
+  <img src="Images/oss.png" alt="waveform" width="2500"/>
   <br>
   <sub><b> Waveform Analysis of Operand Storage System </sub>
 </p>
