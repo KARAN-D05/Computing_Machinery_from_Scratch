@@ -1,38 +1,38 @@
 module operand_storage_system(
-    input wire clk,
-    input wire reset,
+    input [3:0] data_in,
+    input [3:0] fbk_in,
 
-    input wire store,
-    input wire sel,
-    input wire fbk,
-
-    input wire [3:0] data_in,
-    input wire [3:0] fbk_in,
+    input store,
+    input sel,
+    input fbk,
+    input reset,
 
     output reg [3:0] A,
     output reg [3:0] B
 );
 
-always @(posedge clk or posedge reset) begin
-    if (reset) begin
+wire event_clk;
+assign event_clk = store | fbk;
+
+always @(posedge event_clk or posedge reset) begin
+
+    if(reset) begin
         A <= 4'b0000;
         B <= 4'b0000;
     end
-    else if (store) begin
 
-        // Store into B
-        if (sel)
+    else begin
+
+        if(sel & ~fbk) begin
             B <= data_in;
+        end
 
-        // Feedback mode
-        else if (fbk)
+        else if(~ sel) begin
             A <= data_in | fbk_in;
-
-        // Normal load into A
-        else
-            A <= data_in;
+        end
 
     end
+
 end
 
 endmodule
