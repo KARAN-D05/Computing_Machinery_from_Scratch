@@ -66,19 +66,6 @@ The development of this version 4 is a hands on exploration of how program memor
 
 🔬 [More About technical details](RAM_V4/Readme.md)
 
-## 🛠️ Hardware-First Instruction Set Design
-- RAM follows a hardware-first design philosophy in which the instruction set emerged from the machine's native computational mechanisms rather than being specified independently and implemented afterward.
-- Each instruction corresponds directly to a dedicated hardware primitive or subsystem, such as addition, subtraction, feedback-driven computation, multiplication, division, fault recovery, or machine reset.
-- Unlike architectures that rely on complex control sequencing or microcoded decomposition of instructions, RAM exposes its fundamental hardware capabilities directly through the ISA.
-- While not a textbook RISC architecture, the system shares a reductionist spirit: instructions represent the machine's natural operations rather than abstractions translated into lengthy internal execution sequences.
-- In this sense, the software vocabulary of RAM was discovered from the hardware itself.
-
-## ✅ Assembly & Assembler - Built
-- Mapping machine code to custom assembly language
-- Assembly language for the machine code instructions
-- Assembler to convert from assembly code to machine code
-- Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
-
 ## 👉Verilog Implementation:
 
 - RAM_Engine:
@@ -102,6 +89,19 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-synthesis.png" alt="waveform" width="2500"/>
   <sub> RTL Synthesis of Operand Storage System </sub>
 </p>
+
+## 🛠️ Hardware-First Instruction Set Design
+- RAM follows a hardware-first design philosophy in which the instruction set emerged from the machine's native computational mechanisms rather than being specified independently and implemented afterward.
+- Each instruction corresponds directly to a dedicated hardware primitive or subsystem, such as addition, subtraction, feedback-driven computation, multiplication, division, fault recovery, or machine reset.
+- Unlike architectures that rely on complex control sequencing or microcoded decomposition of instructions, RAM exposes its fundamental hardware capabilities directly through the ISA.
+- While not a textbook RISC architecture, the system shares a reductionist spirit: instructions represent the machine's natural operations rather than abstractions translated into lengthy internal execution sequences.
+- In this sense, the software vocabulary of RAM was discovered from the hardware itself.
+
+## ✅ Assembly & Assembler - Built
+- Mapping machine code to custom assembly language
+- Assembly language for the machine code instructions
+- Assembler to convert from assembly code to machine code
+- Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
 
 ## ⬇️ Download This Repository
 
