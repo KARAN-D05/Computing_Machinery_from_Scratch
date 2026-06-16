@@ -68,8 +68,7 @@ The development of this version 4 is a hands on exploration of how program memor
 
 ## 👉Verilog Implementation:
 
-- RAM_Engine:
-  - [Operand Storage System](RAM_Engine/RAM_Engine_Verilog/oss.v)
+- [RAM_Engine](RAM_Engine/RAM_Engine_Verilog)
   
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-waveform.png" alt="waveform" width="2500"/>
