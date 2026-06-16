@@ -94,9 +94,9 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
 
 ### 📊 RTL Synthesis Comparison
 
-| Version  | Module                 | Cells | Key Hardware Structures                                            | Purpose                                                                        |
-| -------- | ---------------------- | ----- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| OSS v1.0 | Operand Storage System | 9     | 2 DFFs (Enable + Async Reset), 1 AND, 2 OR, 3 NOT, 1 Reduction-AND | Stores and updates two 4-bit operands under control of write and reset signals |
+| Module                 | Cells | Key Hardware Structures                                            | Purpose                                                                        |
+| ---------------------- | ----- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| Operand Storage System | 9     | 2 DFFs (Enable + Async Reset), 1 AND, 2 OR, 3 NOT, 1 Reduction-AND | Stores and updates two 4-bit operands under control of write and reset signals |
 
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-synthesis.png" alt="waveform" width="2500"/>
