@@ -85,8 +85,22 @@ The development of this version 4 is a hands on exploration of how program memor
   - [Operand Storage System](RAM_Engine/RAM_Engine_Verilog/oss.v)
   
 <p align="center">
-  <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss.png" alt="waveform" width="2500"/>
+  <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-waveform.png" alt="waveform" width="2500"/>
   <sub> Waveform Analysis of Operand Storage System </sub>
+</p>
+
+## 🔬 RTL Synthesis Results (Yosys)
+To verify hardware realizability, all modules were synthesized using Yosys. The resulting gate-level netlists were analyzed to compare architectural complexity and resource utilization across the project.
+
+### 📊 RTL Synthesis Comparison
+
+| Version  | Module                 | Cells | Key Hardware Structures                                            | Purpose                                                                        |
+| -------- | ---------------------- | ----- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| OSS v1.0 | Operand Storage System | 9     | 2 DFFs (Enable + Async Reset), 1 AND, 2 OR, 3 NOT, 1 Reduction-AND | Stores and updates two 4-bit operands under control of write and reset signals |
+
+<p align="center">
+  <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-synthesis.png" alt="waveform" width="2500"/>
+  <sub> RTL Synthesis of Operand Storage System </sub>
 </p>
 
 ## ⬇️ Download This Repository
