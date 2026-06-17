@@ -6,7 +6,7 @@
 - Feedback System
 - RAM Engine
 
-> src folder contains Verilog Source files & tb folder contains Verilog testbenches
+> src folder contains Verilog Source files & tb folder contains Verilog testbenches.
 
 <p align="center">
   <img src="Images/system-waveform.png" alt="waveform" width="800"/>
