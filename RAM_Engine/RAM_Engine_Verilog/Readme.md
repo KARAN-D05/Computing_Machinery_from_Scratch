@@ -11,3 +11,9 @@
   <br>
   <sub><b> Waveform Analysis of Operand Storage System </sub>
   </p>
+
+<p align="center">
+  <img src="Images/au-waveform.png" alt="waveform" width="2500"/>
+  <br>
+  <sub><b> Waveform Analysis of Arithmetic Unit </sub>
+  </p>
