@@ -98,8 +98,8 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
 </p>
 
 <p align="center">
-  <img src="RAM_Engine/RAM_Engine_Verilog/Images/fbk-synthesis.png" alt="waveform" width="2500"/>
-  <sub> RTL Synthesis of Arithmetic Unit </sub>
+  <img src="RAM_Engine/RAM_Engine_Verilog/Images/fbk-synthesis.png" alt="waveform" width="800"/>
+  <sub> RTL Synthesis of Feedback System </sub>
 </p>
 
 <p align="center">
