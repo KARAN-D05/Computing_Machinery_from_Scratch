@@ -83,7 +83,7 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
 | Module                 | Cells | Key Hardware Structures                                            | Purpose                                                                        |
 | ---------------------- | ----- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | Operand Storage System | 9     | 2 DFFs (Enable + Async Reset), 1 AND, 2 OR, 3 NOT, 1 Reduction-AND | Stores and updates two 4-bit operands under control of write and reset signals |
-| Arithmetic Unit | 8     | 2 DFFs (Async Reset), 4 XOR, 2 Adders | Performs Addition and Subtraction using 2's Complement controlled via mode pin |
+| Arithmetic Unit | 8     | 2 DFFs (Async Reset), 4 XOR, 2 Adders | Performs Addition and Subtraction using 2's Complement controllable via mode pin |
 
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-synthesis.png" alt="waveform" width="2500"/>
@@ -92,7 +92,7 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
 
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/au-synthesis.png" alt="waveform" width="2500"/>
-  <sub> RTL Synthesis of Operand Storage System </sub>
+  <sub> RTL Synthesis of Arithmetic Unit </sub>
 </p>
 
 ## 🛠️ Hardware-First Instruction Set Design
