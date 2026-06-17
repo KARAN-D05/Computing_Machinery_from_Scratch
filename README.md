@@ -69,11 +69,6 @@ The development of this version 4 is a hands on exploration of how program memor
 ## 👉Verilog Implementation:
 
 - [RAM_Engine](RAM_Engine/RAM_Engine_Verilog)
-  
-<p align="center">
-  <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-waveform.png" alt="waveform" width="2500"/>
-  <sub> Waveform Analysis of Operand Storage System </sub>
-</p>
 
 ## 🔬 RTL Synthesis Results (Yosys)
 To verify hardware realizability, all modules were synthesized using Yosys. The resulting gate-level netlists were analyzed to compare architectural complexity and resource utilization across the project.
