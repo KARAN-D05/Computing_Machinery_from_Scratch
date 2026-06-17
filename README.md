@@ -88,6 +88,11 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
 | RAM Engine | 21 | 2 Adders, 2 DFFs (Async Reset), 2 DFFs (Enable + Async Reset), 5 AND, 3 NOT, 2 OR, 1 Reduction-And, 4 XOR  | Complete system integrated using modular blocks capable of repeated computations using feedback|
 
 <p align="center">
+  <img src="RAM_Engine/RAM_Engine_Verilog/Images/system-synthesis.png" alt="waveform" width="2500"/>
+  <sub> RTL Synthesis of RAM Engine </sub>
+</p>
+
+<p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/oss-synthesis.png" alt="waveform" width="2500"/>
   <sub> RTL Synthesis of Operand Storage System </sub>
 </p>
@@ -98,13 +103,8 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
 </p>
 
 <p align="center">
-  <img src="RAM_Engine/RAM_Engine_Verilog/Images/fbk-synthesis.png" alt="waveform" width="800"/>
+  <img src="RAM_Engine/RAM_Engine_Verilog/Images/fbk-synthesis.png" alt="waveform" width="2500"/>
   <sub> RTL Synthesis of Feedback System </sub>
-</p>
-
-<p align="center">
-  <img src="RAM_Engine/RAM_Engine_Verilog/Images/system-synthesis.png" alt="waveform" width="2500"/>
-  <sub> RTL Synthesis of RAM Engine </sub>
 </p>
 
 ## 🛠️ Hardware-First Instruction Set Design
