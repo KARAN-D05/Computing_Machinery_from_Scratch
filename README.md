@@ -102,11 +102,6 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
   <sub> RTL Synthesis of Arithmetic Unit </sub>
 </p>
 
-<p align="center">
-  <img src="RAM_Engine/RAM_Engine_Verilog/Images/fbk-synthesis.png" alt="waveform" width="2500"/>
-  <sub> RTL Synthesis of Feedback System </sub>
-</p>
-
 ## 🛠️ Hardware-First Instruction Set Design
 - RAM follows a hardware-first design philosophy in which the instruction set emerged from the machine's native computational mechanisms rather than being specified independently and implemented afterward.
 - Each instruction corresponds directly to a dedicated hardware primitive or subsystem, such as addition, subtraction, feedback-driven computation, multiplication, division, fault recovery, or machine reset.
