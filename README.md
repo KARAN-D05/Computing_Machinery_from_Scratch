@@ -102,17 +102,16 @@ To verify hardware realizability, all modules were synthesized using Yosys, tech
 | Slowest Module            | Arithmetic Unit (1.56 ns Critical Path)                          |
 | System Critical Path      | RAM Engine (1.99 ns)                                             |
 | Estimated System Fmax     | ~502 MHz                                                         |
-| Most Arithmetic-Heavy     | Arithmetic Unit (4 XORs, 2 Adders, 2 DFFs)                       |
-| Largest Integrated Design | RAM Engine (21 Cells, 718.1888 µm²)                              |
-| Highest Integration       | RAM Engine (Operand Storage + Arithmetic Unit + Feedback System) |
 
-Estimated Maximum Operating Frequency:
-Fmax ≈ 1 / 1.99 ns
-~502 MHz (based on critical path delay)
+> Estimated Maximum Operating Frequency:
+> Fmax ≈ 1 / 1.99 ns
+> ~502 MHz (based on critical path delay)
 
+```
 Arithmetic Unit:
 52% of area
 94% of power
+```
 
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/system-synthesis.png" alt="waveform" width="2500"/>
