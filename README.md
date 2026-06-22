@@ -75,12 +75,13 @@ The development of this version 4 is a hands on exploration of how program memor
   <sub> Waveform Analysis of RAM Engine </sub>
 </p>
 
-## 🔬 RTL Synthesis Results (Yosys)
-To verify hardware realizability, all modules were synthesized using Yosys. The resulting gate-level netlists were analyzed to compare architectural complexity and resource utilization across the project.
+## 🔬 RTL Synthesis, Timing and Power Analysis
 
-> Technology : sky130HD
+To verify hardware realizability, all modules were synthesized using Yosys, technology mapped to the Sky130HD standard-cell library, and analyzed using static timing and power estimation. The resulting gate-level netlists were used to compare architectural complexity, silicon area, timing characteristics, and power consumption across the project.
 
-### 📊 RTL Synthesis Comparison
+> Technology: Sky130HD
+
+### 📊 Implementation Metrics Comparison
 
 | Module                 | Cells | Area | Critical Path Delay | Power |  Key Hardware Structures                                            | Purpose                                                                        |
 | ---------------------- | ----- | ---- |---------------- | ----------- | --------------------------------------- | ------------------------------------------------------------------------------ |
@@ -88,6 +89,30 @@ To verify hardware realizability, all modules were synthesized using Yosys. The 
 | Arithmetic Unit | 8     | 376.6112 µm² | 1.56 ns | 174 µW | 2 DFFs (Async Reset), 4 XOR, 2 Adders | Performs addition and subtraction using 2's complement controllable via mode pin |
 | Feedback System | 4     | 25.024 µm² | 0.10 ns | 3.24 µW |4 AND | Stores output back into register A via feedback pin  |
 | RAM Engine | 21 | 718.1888 µm² | 1.99 ns | 186 µW | 2 Adders, 2 DFFs (Async Reset), 2 DFFs (Enable + Async Reset), 5 AND, 3 NOT, 2 OR, 1 Reduction-And, 4 XOR  | Complete system integrated using modular blocks capable of repeated computations using feedback|
+
+## 🏆 Implementation Highlights
+
+| Category                  | Result                                                           |
+| ------------------------- | ---------------------------------------------------------------- |
+| Smallest Area             | Feedback System (25.024 µm²)                                     |
+| Largest Area              | Arithmetic Unit (376.6112 µm²)                                   |
+| Lowest Power              | Feedback System (3.24 µW)                                        |
+| Highest Power             | Arithmetic Unit (174 µW)                                         |
+| Fastest Module            | Feedback System (0.10 ns Critical Path)                          |
+| Slowest Module            | Arithmetic Unit (1.56 ns Critical Path)                          |
+| System Critical Path      | RAM Engine (1.99 ns)                                             |
+| Estimated System Fmax     | ~502 MHz                                                         |
+| Most Arithmetic-Heavy     | Arithmetic Unit (4 XORs, 2 Adders, 2 DFFs)                       |
+| Largest Integrated Design | RAM Engine (21 Cells, 718.1888 µm²)                              |
+| Highest Integration       | RAM Engine (Operand Storage + Arithmetic Unit + Feedback System) |
+
+Estimated Maximum Operating Frequency:
+Fmax ≈ 1 / 1.99 ns
+~502 MHz (based on critical path delay)
+
+Arithmetic Unit:
+52% of area
+94% of power
 
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/system-synthesis.png" alt="waveform" width="2500"/>
