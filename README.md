@@ -46,19 +46,6 @@ This stage represents a significant step towards understanding and recreating pr
 This is done in order to understand how instructions can be stored in memory and executed sequentially.
 The development of this version 4 is a hands on exploration of how program memory, sequencing and control logic forms basis of the **Stored Program Execution**.
  
-  <p align="center">
-  <img src="RAM_V4/images/Program_Active_Memory.png" alt="Program Active Memory" width="700"/>
-  <br>
-  <sub><b>🧠 Program Active Memory</b> - Memory to store Machine code program and interact with machine by making code flow through it.</sub>
-</p>
-
-**📈 Progress Made:-**
-- Developed instruction format
-- Built Memory modules that stores the machine code instructions
-- Developed units that facilitate Controlled flow for execution of instructions
-- Successfully demonstrated programs like loading data, then adding them, then taking a feedback and subtracting it from some other data
-- Operations that would take manual intervention have been automated through machine code programming
-
 ## 🧩 Machine Code Instruction Format
 <p align="center">
   <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="800"/>
