@@ -78,14 +78,16 @@ The development of this version 4 is a hands on exploration of how program memor
 ## 🔬 RTL Synthesis Results (Yosys)
 To verify hardware realizability, all modules were synthesized using Yosys. The resulting gate-level netlists were analyzed to compare architectural complexity and resource utilization across the project.
 
+> Technology : sky130HD
+
 ### 📊 RTL Synthesis Comparison
 
 | Module                 | Cells | Area | Critical Path Delay | Power |  Key Hardware Structures                                            | Purpose                                                                        |
 | ---------------------- | ----- | ---- |---------------- | ----------- | --------------------------------------- | ------------------------------------------------------------------------------ |
-| Operand Storage System | 9 | 337.824000 µm² | 0.64 ns | 57.3 µW | 2 DFFs (Enable + Async Reset), 1 AND, 2 OR, 3 NOT, 1 Reduction-AND | Stores and updates two 4-bit operands under control of write and reset signals |
-| Arithmetic Unit | 8     | 376.611200 µm² | 1.56 ns | µ174 µW | 2 DFFs (Async Reset), 4 XOR, 2 Adders | Performs addition and subtraction using 2's complement controllable via mode pin |
-| Feedback System | 4     | ---- |4 AND | Stores output back into register A via feedback pin  |
-| RAM Engine | 21 | ---- | 2 Adders, 2 DFFs (Async Reset), 2 DFFs (Enable + Async Reset), 5 AND, 3 NOT, 2 OR, 1 Reduction-And, 4 XOR  | Complete system integrated using modular blocks capable of repeated computations using feedback|
+| Operand Storage System | 9 | 337.824 µm² | 0.64 ns | 57.3 µW | 2 DFFs (Enable + Async Reset), 1 AND, 2 OR, 3 NOT, 1 Reduction-AND | Stores and updates two 4-bit operands under control of write and reset signals |
+| Arithmetic Unit | 8     | 376.6112 µm² | 1.56 ns | 174 µW | 2 DFFs (Async Reset), 4 XOR, 2 Adders | Performs addition and subtraction using 2's complement controllable via mode pin |
+| Feedback System | 4     | 25.024 µm² | 0.10 ns | 3.24 µW |4 AND | Stores output back into register A via feedback pin  |
+| RAM Engine | 21 | 718.1888 µm² | 1.99 ns | 186 µW | 2 Adders, 2 DFFs (Async Reset), 2 DFFs (Enable + Async Reset), 5 AND, 3 NOT, 2 OR, 1 Reduction-And, 4 XOR  | Complete system integrated using modular blocks capable of repeated computations using feedback|
 
 <p align="center">
   <img src="RAM_Engine/RAM_Engine_Verilog/Images/system-synthesis.png" alt="waveform" width="2500"/>
