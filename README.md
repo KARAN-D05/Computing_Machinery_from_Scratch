@@ -34,18 +34,6 @@ Today, the `Repeated Arithmetic Machine`(name of the computing machine) is a mod
 ![Yosys](https://img.shields.io/badge/Yosys-F4511E?style=for-the-badge)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-## 🚀 r_a_mv4(Stored Program Architecture)
-
-<p align="center">
-  <img src="RAM_V4/images/r_a_mv4.png" alt="Version 4 Hardware Integration" width="700"/>
-  <br>
-  <sub><b>⚙️ R_A_MV4 </b> - Complete system with sequential program execution.</sub>
-</p>
-
-This stage represents a significant step towards understanding and recreating principles behind early programmable computers.
-This is done in order to understand how instructions can be stored in memory and executed sequentially.
-The development of this version 4 is a hands on exploration of how program memory, sequencing and control logic forms basis of the **Stored Program Execution**.
- 
 ## 🧩 Machine Code Instruction Format
 <p align="center">
   <img src="RAM_V4/r_a_mv4-machine-code-instruction-format.png"  width="800"/>
