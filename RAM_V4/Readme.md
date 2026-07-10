@@ -73,4 +73,3 @@
    - Start small with programs to load data and basic addition
    - After getting comfortable, try programs including feedback, multiplication, subtraction and division
    - Refer [r_a_mv3](../RAM_V3) (Navigate to RAM_V3 folder and download r_a_mv3.circ) to understand how different operations are performed by hardware to write correct program to control the machinery.
-   - Read all the steps mentioned above properly.
