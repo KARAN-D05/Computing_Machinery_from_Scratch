@@ -2,7 +2,7 @@
 
 ## 🧠About
 - Full-fledged autonomous Repeated Arithmetic Machine. 
-- Self-aware, self-correcting, and intelligent system with over 400 logic gates. 
+- Self-correcting system with over 400 logic gates. 
 - Developed iteratively from the base engine through V1 and V2 and other versions in between, now incorporating advanced automation and error handling.
 
 <p align="center">
