@@ -107,25 +107,6 @@ To verify hardware realizability, all modules were synthesized using Yosys, tech
 - Assembler to convert from assembly code to machine code
 - Here is the Assembler Project, [Check this out](https://github.com/KARAN-D05/Assembler)
 
-## ⬇️ Download This Repository
-
-### 🪟 Windows
-Download → [download_repos.bat](./download_repos.bat)
-``` 
-Double-click it and pick the repo(s) you want.
-```
-
-### 🐧 Linux / macOS
-Download → [download_repos.sh](./download_repos.sh)
-```
-bash
-
-chmod +x download_repos.sh
-./download_repos.sh
-```
-
-> Always downloads the latest version.
-
 ## 📜License:
 - Source code, HDL, and Logisim circuit files are licensed under the MIT License.
 - Documentation, diagrams, images, and PDFs are licensed under Creative Commons Attribution 4.0 (CC BY 4.0).
