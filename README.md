@@ -23,15 +23,12 @@ Today, the `Repeated Arithmetic Machine`(name of the computing machine) is a mod
 
 💡[Machine Schematics - From Idea to Implementation(V1-V3)](Images/RAM_Project_Evolution.pdf)
 
-## ⚙️ Implementation Stack
-![Verilog](https://img.shields.io/badge/Verilog-RTL-FFEA00?style=flat-square&logoColor=black)
-![Logisim Circuits](https://img.shields.io/badge/Logisim%20Circuits-Prototyping-00C853?style=flat-square)
-
 ## 🛠️ Toolchain
+![Logisim Circuits](https://img.shields.io/badge/Logisim-Prototyping-00C853?style=flat-square)
 ![Icarus Verilog](https://img.shields.io/badge/Icarus_Verilog-Simulation-1E88E5?style=flat-square)
-![Verilator](https://img.shields.io/badge/Verilator-Linting-00897B?style=flat-square)
+![Verilator](https://img.shields.io/badge/Verilator-Lint-00897B?style=flat-square)
 ![GTKWave](https://img.shields.io/badge/GTKWave-Waveforms-F57C00?style=flat-square)
-![Yosys](https://img.shields.io/badge/Yosys-Synthesis-43A047?style=flat-square)
+![Yosys](https://img.shields.io/badge/Yosys-Synthesis-D81B60?style=flat-square)
 ![OpenSTA](https://img.shields.io/badge/OpenSTA-Static_Timing_Analysis-8E24AA?style=flat-square)
 
 ## 🧩 Machine Code Instruction Format
